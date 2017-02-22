@@ -26,7 +26,7 @@ main.container
 
 .left-column
   display: flex
-  padding: 1.5rem
+  padding: 2.5rem 1.5rem
   background-color: $primary-color
   color: white
   flex-direction: column
@@ -40,7 +40,7 @@ main.container
 
 .right-column
   display: flex
-  padding: 1.5rem
+  padding: 2.5rem 1.5rem
   flex-direction: column
   justify-content: space-between
 
@@ -96,7 +96,7 @@ h1.logo
   margin: auto
   max-width: 80%
 
-  @media screen and (min-width: 20em)
+  @media screen and (max-width: (820 * $px))
     max-width: none
 
   @media screen and (min-width: 64em)
@@ -113,7 +113,7 @@ h1.logo
 
   #logo
     @media screen and (min-width: 40em)
-      width: (500 * $px)
+      max-width: (450 * $px)
 
 pre.ready
   display: inline-block
@@ -156,7 +156,7 @@ pre.ready
     background-color: $secondary-color
 
   &__title
-    margin: (60 * $px) 0 (16 * $px)
+    margin: (40 * $px) 0 (16 * $px)
     color: $secondary-color
     font-size: $font-size-xlg
     font-weight: 600
