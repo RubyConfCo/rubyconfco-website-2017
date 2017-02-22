@@ -201,7 +201,7 @@ pre.ready
     position: relative
     display: table
     width: 100%
-    box-shadow: 0 (1.5 * $px) (2.5 * $px) 0 rgba(196, 196, 196, 0.5)
+    box-shadow: 0 (1.5 * $px) (2.5 * $px) 0 rgba(196, 196, 196, 0.4)
     table-layout: fixed
     @media screen and (max-width: 64em)
       box-shadow: none
@@ -219,13 +219,13 @@ pre.ready
       vertical-align: bottom
 
     &_input
-      width: calc(100% - #{$button-width})
       border-radius: 0
-      -webkit-appearance: none
+      width: calc(100% - #{$button-width})
 
       @media screen and (max-width: 64em)
+        -webkit-appearance: none
         width: 100%
-        box-shadow: 0 (1.5 * $px) (2.5 * $px) 0 rgba(196, 196, 196, 0.5)
+        box-shadow: 0 (1.5 * $px) (2.5 * $px) 0 rgba(196, 196, 196, 0.4)
 
     &_button
       background-color: $secondary-color
