@@ -1,0 +1,28 @@
+%section.section.section-form#mailing-list
+  %div
+    .wrapper
+      .text--center
+        %h1.section__title MAILING LIST
+        %i.icon.icon-ruby-lines.section__title-separator
+      %p.section__description.text--center
+        To get updates about
+        %span RubyConf Colombia,
+        including ticket releases, news and surprises, sign up to our mailing list.
+
+      .grid.grid--center
+        .grid__item.palm--one-whole.lap--one-whole.one-half>
+          %form#mc-embedded-subscribe-form.validate{:action => "//rubyconf.us11.list-manage.com/subscribe/post?u=7b7c2e5ead7427750ced71f09&id=8d4ffd72a9", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
+            .form-field
+              %input.input--text{:type => "text", :placeholder => "Name", :id => "FNAME", :name => "FNAME"}
+            .form-field
+              %input.input--text{:type => "text", :placeholder => "Last Name", :id => "LNAME", :name => "LNAME"}
+            .form-field.push-double--bottom
+              %input.input--text{:type => "email", :placeholder => "E-mail", :id => "EMAIL", :name => "EMAIL"}
+            #mce-responses.clear
+              #mce-error-response.response{:style => "display:none"}
+              #mce-success-response.response{:style => "display:none"}
+            / real people should not fill this in and expect good things - do not remove this or risk form bot signups
+            %div{:style => "position: absolute; left: -5000px;"}
+              %input{:name => "b_7b7c2e5ead7427750ced71f09_8d4ffd72a9", :tabindex => "-1", :type => "text", :value => ""}/
+            .form-field
+              %button.btn.btn--alternative{:name => "subscribe", :type => "submit", :value => "Send"} Subscribe

@@ -1,0 +1,269 @@
+//===================
+// Landing
+//===================
+
+// html
+//   @media only screen and (min-width: 90.063em)
+//     font-size: 32px
+
+body
+  display: table
+  min-height: 100vh
+  min-width: 100vw
+
+  @media screen and (min-width: 40em)
+    padding: 1rem
+
+main.container
+  display: table-cell
+  position: relative
+  margin: 0 auto
+  width: 100%
+  vertical-align: middle
+
+  .row
+    max-width: none
+
+.left-column
+  display: flex
+  padding: 1.5rem
+  background-color: $primary-color
+  color: white
+  flex-direction: column
+
+  .content
+    margin: 0 auto
+    width: 100%
+
+    @media screen and (min-width: 64em)
+      max-width: 70%
+
+  @media screen and (min-width: 64em)
+    padding: 2.5rem
+
+.right-column
+  display: flex
+  padding: 1.5rem
+  flex-direction: column
+  justify-content: space-between
+
+  .top,
+  .bottom
+    margin: 0 auto
+    width: 100%
+
+    @media screen and (min-width: 64em)
+      max-width: 70%
+
+  @media screen and (min-width: 64em)
+    padding: 2.5rem
+
+
+@media screen and (min-width: 40em)
+  .left-column,
+  .right-column
+    width: 50%
+
+  .left-column:before,
+  .right-column:before
+    content: ""
+    display: block
+    position: absolute
+    top: 0
+    bottom: 0
+
+  .left-column:before
+    left: 0
+    right: 50%
+    background-color: $primary-color
+    z-index: -2
+
+  .right-column:before
+    left: 50%
+    right: 0
+    background-color: $white-color
+    z-index: -1
+
+
+h1.logo
+  display: block
+  margin: 0 0 3rem
+  width: (156 * $px)
+  height: (60 * $px)
+  background-image: url('../images/logo-ruby.svg')
+  background-repeat: no-repeat
+  background-size: 100%
+  text-indent: -9999px
+
+.bigLogo
+  display: flex
+  margin: 0 auto 3rem
+  flex: 1 1 0%
+  align-items: center
+  justify-content: center
+  text-align: center
+  max-width: 80%
+
+  img
+    width: (144 * $px)
+
+    @media screen and (min-width: 40em)
+      width: (307 * $px)
+      height: auto
+
+pre.ready
+  display: inline-block
+  margin: 0
+  padding: 1rem
+  width: 100%
+  border-left: (2 * $px) solid $secondary-color
+  font-family: inherit
+  font-size: (22 * $px)
+  font-weight: 400
+  line-height: (37 * $px)
+
+  @media screen and (max-width: 64em)
+    padding: 0 0 0 1rem
+    font-size: (18 * $px)
+    line-height: (25 * $px)
+
+  @media screen and (max-width: 20em)
+    font-size: (14 * $px)
+
+.social
+  &__link
+    display: inline-block
+    margin-right: 1rem
+    color: black
+    font-size: $font-size-md
+    border-bottom: (1 * $px) solid $secondary-color
+
+.intro
+  position: relative
+  margin: 2rem 0
+
+  &:after
+    content: ""
+    display: block
+    bottom: 0
+    left: 0
+    width: (20 * $px)
+    height: (1 * $px)
+    background-color: $secondary-color
+
+  &__title
+    margin: (60 * $px) 0 (16 * $px)
+    color: $secondary-color
+    font-size: $font-size-xlg
+    font-weight: 600
+
+    @media screen and (max-width: 39.9375em)
+      font-size: (30 * $px)
+
+  &__description
+    margin: 0
+    padding-bottom: $font-size-lg
+    font-size: $font-size-lg
+    font-weight: 300
+    line-height: (30 * $px)
+
+    @media screen and (max-width: 39.9375em)
+      font-size: $font-size-md
+      line-height: (31 * $px)
+
+    &__date
+      color: $secondary-color
+      font-weight: 400
+
+      strong
+        color: $primary-color
+
+.newsletter
+  $button-width: (150 * $px)
+
+  margin: 2rem 0
+
+  &__description
+    margin: 1.5rem 0
+    color: $gray-color
+    font-size: $font-size-sm
+    line-height: (22 * $px)
+
+    @media screen and (max-width: 39.9375em)
+      font-size: (12 * $px)
+
+  &__field
+    position: relative
+    display: table
+    width: 100%
+    box-shadow: 0 (1.5 * $px) (2.5 * $px) 0 rgba(196, 196, 196, 0.4)
+    table-layout: fixed
+    @media screen and (max-width: 64em)
+      box-shadow: none
+
+    &_input,
+    &_button
+      display: table-cell
+      padding: 0 1rem
+      height: (50 * $px)
+      border: none
+      font-size: (15 * $px)
+      font-family: inherit
+      line-height: (50 * $px)
+      outline: none
+      vertical-align: bottom
+
+    &_input
+      width: calc(100% - #{$button-width})
+
+      @media screen and (max-width: 64em)
+        width: 100%
+        box-shadow: 0 (1.5 * $px) (2.5 * $px) 0 rgba(196, 196, 196, 0.4)
+
+    &_button
+      background-color: $secondary-color
+      color: white
+      cursor: pointer
+      font-size: $font-size-md
+      font-weight: 600
+      width: $button-width
+
+      @media screen and (max-width: 64em)
+        margin-top: 1rem
+        width: 100%
+
+.sponsors
+  &__title
+    margin-bottom: 0
+    font-size: $font-size-md
+    color: $secondary-color
+
+  &__list
+    margin: 0
+    padding: 0
+    list-style: none
+
+    &_item
+      display: inline-block
+
+      a.monoku
+        display: inline-block
+        width: (147 * $px)
+        height: (37 * $px)
+        background-image: url('../images/monoku.svg')
+        background-repeat: no-repeat
+        background-size: cover
+        text-indent: -9999px
+        font-size: 1px
+
+#PhotoPP1
+  transition: all 500ms cubic-bezier(0.24, 0.12, 0.16, 1.06)
+  transform: translate3d(0px, -650px, 0px)
+
+#PhotoPP2
+  transition: all 500ms cubic-bezier(0.24, 0.12, 0.16, 1.06)
+  transform: translate3d(-54px, 0px, 0px)
+
+#PhotoPP3
+  transition: all 500ms cubic-bezier(0.24, 0.12, 0.16, 1.06)
+  transform: translate3d(-446px, -650px, 0px)

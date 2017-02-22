@@ -1,0 +1,14 @@
+%footer.footer
+  .footer__top
+    = image_tag("city.svg")
+  .footer__bottom
+    .wrapper
+      = partial "shared/navigation"
+
+      %p
+        Brought to you by Ruby Colombia / Follow us on:
+        %span.list-icons
+          %a{:href => "https://twitter.com/rubyconfco"}
+            %i.icon.icon-twitter
+          %a{:href => "https://www.facebook.com/RubyConfCo"}
+            %i.icon.icon-facebook

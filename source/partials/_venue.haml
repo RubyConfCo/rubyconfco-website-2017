@@ -1,0 +1,33 @@
+%section.section.section-venue#venue
+  %div
+    .wrapper
+      .text--center
+        %h1.section__title VENUE
+        %i.icon.icon-ruby-lines.section__title-separator
+
+        %p.section__description.flush--bottom.large
+          Complejo Ruta N
+
+        %p.section__description
+          %span Calle 67 Nº 52-20
+
+        %p.section__description.short
+          All the conference talks and workshops will be held at Ruta N
+
+      .btn--container.text--center
+        %a.btn.btn--default{:href => "#", class: "js-map"} Show Map
+
+    .map-overlay
+      .map-canvas
+        %a.close{:href => "#", class: "js-map-close"} X
+        #map-canvas.map
+
+    .wrapper
+      %p.section__description
+        .btn--container.text--center
+          %a.btn.btn--default{href: "/hotels.html"} Hotels
+
+    .wrapper
+      %p.section__description
+        .btn--container.text--center
+          %a.btn.btn--default{href: "/medellin.html"} Learn more about Medellin

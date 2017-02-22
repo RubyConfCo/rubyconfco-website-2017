@@ -1,0 +1,8 @@
+!!! 5
+%html
+  = partial "shared/head"
+  %body{:class => page_classes}
+    %main.container
+      .row
+        = yield
+    = partial "shared/scripts"
