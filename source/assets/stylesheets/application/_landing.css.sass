@@ -35,9 +35,6 @@ main.container
     margin: 0 auto
     width: 100%
 
-    @media screen and (min-width: 64em)
-      max-width: 70%
-
   @media screen and (min-width: 64em)
     padding: 2.5rem
 
@@ -95,6 +92,16 @@ h1.logo
   background-size: 100%
   text-indent: -9999px
 
+.column-content
+  margin: auto
+  max-width: 80%
+
+  @media screen and (min-width: 20em)
+    max-width: none
+
+  @media screen and (min-width: 64em)
+    max-width: (400 * $px)
+
 .bigLogo
   display: flex
   margin: 0 auto 3rem
@@ -104,12 +111,9 @@ h1.logo
   text-align: center
   max-width: 80%
 
-  img
-    width: (144 * $px)
-
+  #logo
     @media screen and (min-width: 40em)
-      width: (307 * $px)
-      height: auto
+      width: (500 * $px)
 
 pre.ready
   display: inline-block
