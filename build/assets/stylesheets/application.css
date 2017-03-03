@@ -1832,7 +1832,7 @@ pre.ready {
     position: relative;
     display: table;
     width: 100%;
-    box-shadow: 0 0.09375rem 0.15625rem 0 rgba(196, 196, 196, 0.5);
+    box-shadow: 0 0.09375rem 0.15625rem 0 rgba(196, 196, 196, 0.4);
     table-layout: fixed; }
     @media screen and (max-width: 64em) {
       /* line 200, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
@@ -1851,14 +1851,14 @@ pre.ready {
       vertical-align: bottom; }
     /* line 221, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
     .newsletter__field_input {
-      width: calc(100% - 9.375rem);
       border-radius: 0;
-      -webkit-appearance: none; }
+      width: calc(100% - 9.375rem); }
       @media screen and (max-width: 64em) {
         /* line 221, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
         .newsletter__field_input {
+          -webkit-appearance: none;
           width: 100%;
-          box-shadow: 0 0.09375rem 0.15625rem 0 rgba(196, 196, 196, 0.5); } }
+          box-shadow: 0 0.09375rem 0.15625rem 0 rgba(196, 196, 196, 0.4); } }
     /* line 230, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
     .newsletter__field_button {
       background-color: #3300ff;
@@ -1889,8 +1889,8 @@ pre.ready {
     /* line 256, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
     .sponsors__list_item a.monoku {
       display: inline-block;
-      width: 9.1875rem;
-      height: 2.3125rem;
+      width: 6.625rem;
+      height: 3.125rem;
       background-image: url("../images/monoku.svg");
       background-repeat: no-repeat;
       background-size: cover;
