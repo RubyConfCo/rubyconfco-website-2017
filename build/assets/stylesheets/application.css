@@ -7,7 +7,7 @@
  */
 /* Document
    ========================================================================== */
-/* line 14, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 14, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -23,14 +23,14 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
-/* line 28, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 28, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 body {
   margin: 0; }
 
 /**
  * Add the correct display in IE 9-.
  */
-/* line 36, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 36, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 article,
 aside,
 footer,
@@ -43,7 +43,7 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 50, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 50, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -54,7 +54,7 @@ h1 {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
-/* line 63, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 63, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 figcaption,
 figure,
 main {
@@ -64,7 +64,7 @@ main {
 /**
  * Add the correct margin in IE 8.
  */
-/* line 73, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 73, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
@@ -72,7 +72,7 @@ figure {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 82, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 82, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -85,7 +85,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 93, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 93, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -98,7 +98,7 @@ pre {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
-/* line 106, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 106, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 a {
   background-color: transparent;
   /* 1 */
@@ -109,7 +109,7 @@ a {
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
  */
-/* line 116, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 116, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 a:active,
 a:hover {
   outline-width: 0; }
@@ -118,7 +118,7 @@ a:hover {
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 126, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 126, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -130,7 +130,7 @@ abbr[title] {
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-/* line 136, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 136, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 b,
 strong {
   font-weight: inherit; }
@@ -138,7 +138,7 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 145, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 145, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 b,
 strong {
   font-weight: bolder; }
@@ -147,7 +147,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 155, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 155, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 code,
 kbd,
 samp {
@@ -159,14 +159,14 @@ samp {
 /**
  * Add the correct font style in Android 4.3-.
  */
-/* line 166, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 166, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 dfn {
   font-style: italic; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
-/* line 174, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 174, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 mark {
   background-color: #ff0;
   color: #000; }
@@ -174,7 +174,7 @@ mark {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 183, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 183, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 small {
   font-size: 80%; }
 
@@ -182,7 +182,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 192, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 192, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -190,11 +190,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 200, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 200, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 204, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 204, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 sup {
   top: -0.5em; }
 
@@ -203,7 +203,7 @@ sup {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 215, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 215, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 audio,
 video {
   display: inline-block; }
@@ -211,7 +211,7 @@ video {
 /**
  * Add the correct display in iOS 4-7.
  */
-/* line 224, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 224, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -219,14 +219,14 @@ audio:not([controls]) {
 /**
  * Remove the border on images inside links in IE 10-.
  */
-/* line 233, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 233, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 img {
   border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
-/* line 241, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 241, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -236,7 +236,7 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 253, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 253, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button,
 input,
 optgroup,
@@ -255,7 +255,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 269, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 269, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -265,7 +265,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 279, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 279, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -276,7 +276,7 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 290, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 290, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button,
 html [type="button"],
 [type="reset"],
@@ -287,7 +287,7 @@ html [type="button"],
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 301, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 301, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -298,7 +298,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 313, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 313, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -308,7 +308,7 @@ button:-moz-focusring,
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
  */
-/* line 324, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 324, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -320,7 +320,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 337, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 337, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -339,7 +339,7 @@ legend {
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 351, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 351, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 progress {
   display: inline-block;
   /* 1 */
@@ -349,7 +349,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE.
  */
-/* line 360, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 360, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -357,7 +357,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
-/* line 369, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 369, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -368,7 +368,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 379, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 379, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -377,7 +377,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 389, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 389, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -387,7 +387,7 @@ textarea {
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
-/* line 398, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 398, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -396,7 +396,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 408, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 408, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -409,7 +409,7 @@ textarea {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
-/* line 421, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 421, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 details,
 menu {
   display: block; }
@@ -417,7 +417,7 @@ menu {
 /*
  * Add the correct display in all browsers.
  */
-/* line 430, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 430, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 summary {
   display: list-item; }
 
@@ -426,14 +426,14 @@ summary {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 441, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 441, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 canvas {
   display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
-/* line 449, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 449, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 template {
   display: none; }
 
@@ -442,7 +442,7 @@ template {
 /**
  * Add the correct display in IE 10-.
  */
-/* line 460, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 460, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_normalize.scss */
 [hidden] {
   display: none; }
 
@@ -452,7 +452,7 @@ template {
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
-/* line 9, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 9, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row {
   max-width: 62.5rem;
   margin-right: auto;
@@ -462,39 +462,39 @@ template {
   -ms-flex-flow: row wrap;
   flex-flow: row wrap; }
 
-/* line 19, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 19, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row .row {
   margin-right: 0;
   margin-left: 0; }
 
 @media print, screen and (min-width: 40em) {
-  /* line 26, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 26, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .row .row {
     margin-right: 0;
     margin-left: 0; } }
 @media print, screen and (min-width: 64em) {
-  /* line 34, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 34, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .row .row {
     margin-right: 0;
     margin-left: 0; } }
-/* line 40, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 40, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row.expanded {
   max-width: none; }
 
-/* line 44, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 44, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row.collapse > .column,
 .row.collapse > .columns {
   padding-right: 0;
   padding-left: 0; }
 
-/* line 50, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 50, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row.is-collapse-child,
 .row.collapse > .column > .row,
 .row.collapse > .columns > .row {
   margin-right: 0;
   margin-left: 0; }
 
-/* line 57, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 57, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .column,
 .columns {
   -ms-flex: 1 1 0px;
@@ -503,13 +503,13 @@ template {
   padding-left: 0;
   min-width: initial; }
 
-/* line 66, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 66, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .column.row.row,
 .row.row.columns {
   display: -ms-flexbox;
   display: flex; }
 
-/* line 72, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 72, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row .column.row.row,
 .row .row.row.columns {
   margin-right: 0;
@@ -517,1170 +517,1170 @@ template {
   padding-right: 0;
   padding-left: 0; }
 
-/* line 80, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 80, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-container {
   display: -ms-flexbox;
   display: flex; }
 
-/* line 85, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 85, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-child-auto {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto; }
 
-/* line 90, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 90, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-child-grow {
   -ms-flex: 1 0 auto;
   flex: 1 0 auto; }
 
-/* line 95, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 95, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-child-shrink {
   -ms-flex: 0 1 auto;
   flex: 0 1 auto; }
 
-/* line 100, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 100, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-dir-row {
   -ms-flex-direction: row;
   flex-direction: row; }
 
-/* line 105, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 105, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-dir-row-reverse {
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse; }
 
-/* line 110, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 110, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-dir-column {
   -ms-flex-direction: column;
   flex-direction: column; }
 
-/* line 115, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 115, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-dir-column-reverse {
   -ms-flex-direction: column-reverse;
   flex-direction: column-reverse; }
 
-/* line 120, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 120, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-1 {
   -ms-flex: 0 0 8.33333%;
   flex: 0 0 8.33333%;
   max-width: 8.33333%; }
 
-/* line 126, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 126, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-0 {
   margin-left: 0%; }
 
-/* line 130, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 130, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-2 {
   -ms-flex: 0 0 16.66667%;
   flex: 0 0 16.66667%;
   max-width: 16.66667%; }
 
-/* line 136, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 136, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-1 {
   margin-left: 8.33333%; }
 
-/* line 140, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 140, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-3 {
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
   max-width: 25%; }
 
-/* line 146, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 146, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-2 {
   margin-left: 16.66667%; }
 
-/* line 150, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 150, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-4 {
   -ms-flex: 0 0 33.33333%;
   flex: 0 0 33.33333%;
   max-width: 33.33333%; }
 
-/* line 156, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 156, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-3 {
   margin-left: 25%; }
 
-/* line 160, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 160, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-5 {
   -ms-flex: 0 0 41.66667%;
   flex: 0 0 41.66667%;
   max-width: 41.66667%; }
 
-/* line 166, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 166, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-4 {
   margin-left: 33.33333%; }
 
-/* line 170, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 170, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-6 {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%; }
 
-/* line 176, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 176, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-5 {
   margin-left: 41.66667%; }
 
-/* line 180, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 180, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-7 {
   -ms-flex: 0 0 58.33333%;
   flex: 0 0 58.33333%;
   max-width: 58.33333%; }
 
-/* line 186, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 186, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-6 {
   margin-left: 50%; }
 
-/* line 190, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 190, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-8 {
   -ms-flex: 0 0 66.66667%;
   flex: 0 0 66.66667%;
   max-width: 66.66667%; }
 
-/* line 196, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 196, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-7 {
   margin-left: 58.33333%; }
 
-/* line 200, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 200, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-9 {
   -ms-flex: 0 0 75%;
   flex: 0 0 75%;
   max-width: 75%; }
 
-/* line 206, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 206, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-8 {
   margin-left: 66.66667%; }
 
-/* line 210, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 210, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-10 {
   -ms-flex: 0 0 83.33333%;
   flex: 0 0 83.33333%;
   max-width: 83.33333%; }
 
-/* line 216, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 216, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-9 {
   margin-left: 75%; }
 
-/* line 220, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 220, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-11 {
   -ms-flex: 0 0 91.66667%;
   flex: 0 0 91.66667%;
   max-width: 91.66667%; }
 
-/* line 226, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 226, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-10 {
   margin-left: 83.33333%; }
 
-/* line 230, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 230, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-12 {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%; }
 
-/* line 236, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 236, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-11 {
   margin-left: 91.66667%; }
 
-/* line 240, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 240, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-1 {
   -ms-flex-order: 1;
   order: 1; }
 
-/* line 245, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 245, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-2 {
   -ms-flex-order: 2;
   order: 2; }
 
-/* line 250, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 250, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-3 {
   -ms-flex-order: 3;
   order: 3; }
 
-/* line 255, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 255, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-4 {
   -ms-flex-order: 4;
   order: 4; }
 
-/* line 260, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 260, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-5 {
   -ms-flex-order: 5;
   order: 5; }
 
-/* line 265, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 265, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-6 {
   -ms-flex-order: 6;
   order: 6; }
 
-/* line 270, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 270, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-1 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 275, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 275, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-1 > .column,
 .small-up-1 > .columns {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%; }
 
-/* line 282, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 282, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-2 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 287, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 287, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-2 > .column,
 .small-up-2 > .columns {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%; }
 
-/* line 294, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 294, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-3 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 299, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 299, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-3 > .column,
 .small-up-3 > .columns {
   -ms-flex: 0 0 33.33333%;
   flex: 0 0 33.33333%;
   max-width: 33.33333%; }
 
-/* line 306, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 306, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-4 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 311, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 311, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-4 > .column,
 .small-up-4 > .columns {
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
   max-width: 25%; }
 
-/* line 318, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 318, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-5 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 323, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 323, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-5 > .column,
 .small-up-5 > .columns {
   -ms-flex: 0 0 20%;
   flex: 0 0 20%;
   max-width: 20%; }
 
-/* line 330, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 330, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-6 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 335, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 335, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-6 > .column,
 .small-up-6 > .columns {
   -ms-flex: 0 0 16.66667%;
   flex: 0 0 16.66667%;
   max-width: 16.66667%; }
 
-/* line 342, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 342, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-7 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 347, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 347, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-7 > .column,
 .small-up-7 > .columns {
   -ms-flex: 0 0 14.28571%;
   flex: 0 0 14.28571%;
   max-width: 14.28571%; }
 
-/* line 354, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 354, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-8 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 359, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 359, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-8 > .column,
 .small-up-8 > .columns {
   -ms-flex: 0 0 12.5%;
   flex: 0 0 12.5%;
   max-width: 12.5%; }
 
-/* line 366, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 366, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-collapse > .column,
 .small-collapse > .columns {
   padding-right: 0;
   padding-left: 0; }
 
-/* line 372, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 372, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-uncollapse > .column,
 .small-uncollapse > .columns {
   padding-right: 0;
   padding-left: 0; }
 
 @media print, screen and (min-width: 40em) {
-  /* line 380, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 380, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-1 {
     -ms-flex: 0 0 8.33333%;
     flex: 0 0 8.33333%;
     max-width: 8.33333%; }
 
-  /* line 385, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 385, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-0 {
     margin-left: 0%; }
 
-  /* line 388, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 388, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-2 {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
 
-  /* line 393, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 393, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-1 {
     margin-left: 8.33333%; }
 
-  /* line 396, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 396, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
 
-  /* line 401, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 401, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-2 {
     margin-left: 16.66667%; }
 
-  /* line 404, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 404, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-4 {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
 
-  /* line 409, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 409, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-3 {
     margin-left: 25%; }
 
-  /* line 412, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 412, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-5 {
     -ms-flex: 0 0 41.66667%;
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }
 
-  /* line 417, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 417, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-4 {
     margin-left: 33.33333%; }
 
-  /* line 420, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 420, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
 
-  /* line 425, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 425, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-5 {
     margin-left: 41.66667%; }
 
-  /* line 428, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 428, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-7 {
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
 
-  /* line 433, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 433, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-6 {
     margin-left: 50%; }
 
-  /* line 436, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 436, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-8 {
     -ms-flex: 0 0 66.66667%;
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
 
-  /* line 441, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 441, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-7 {
     margin-left: 58.33333%; }
 
-  /* line 444, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 444, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%; }
 
-  /* line 449, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 449, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-8 {
     margin-left: 66.66667%; }
 
-  /* line 452, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 452, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-10 {
     -ms-flex: 0 0 83.33333%;
     flex: 0 0 83.33333%;
     max-width: 83.33333%; }
 
-  /* line 457, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 457, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-9 {
     margin-left: 75%; }
 
-  /* line 460, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 460, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-11 {
     -ms-flex: 0 0 91.66667%;
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
 
-  /* line 465, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 465, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-10 {
     margin-left: 83.33333%; }
 
-  /* line 468, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 468, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
 
-  /* line 473, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 473, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-11 {
     margin-left: 91.66667%; }
 
-  /* line 476, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 476, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-1 {
     -ms-flex-order: 1;
     order: 1; }
 
-  /* line 480, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 480, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-2 {
     -ms-flex-order: 2;
     order: 2; }
 
-  /* line 484, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 484, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-3 {
     -ms-flex-order: 3;
     order: 3; }
 
-  /* line 488, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 488, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-4 {
     -ms-flex-order: 4;
     order: 4; }
 
-  /* line 492, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 492, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-5 {
     -ms-flex-order: 5;
     order: 5; }
 
-  /* line 496, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 496, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-6 {
     -ms-flex-order: 6;
     order: 6; }
 
-  /* line 500, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 500, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-1 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 504, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 504, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-1 > .column,
   .medium-up-1 > .columns {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
 
-  /* line 510, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 510, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-2 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 514, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 514, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-2 > .column,
   .medium-up-2 > .columns {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
 
-  /* line 520, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 520, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-3 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 524, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 524, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-3 > .column,
   .medium-up-3 > .columns {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
 
-  /* line 530, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 530, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-4 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 534, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 534, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-4 > .column,
   .medium-up-4 > .columns {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
 
-  /* line 540, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 540, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-5 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 544, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 544, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-5 > .column,
   .medium-up-5 > .columns {
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
     max-width: 20%; }
 
-  /* line 550, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 550, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-6 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 554, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 554, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-6 > .column,
   .medium-up-6 > .columns {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
 
-  /* line 560, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 560, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-7 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 564, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 564, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-7 > .column,
   .medium-up-7 > .columns {
     -ms-flex: 0 0 14.28571%;
     flex: 0 0 14.28571%;
     max-width: 14.28571%; }
 
-  /* line 570, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 570, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-8 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 574, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 574, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-8 > .column,
   .medium-up-8 > .columns {
     -ms-flex: 0 0 12.5%;
     flex: 0 0 12.5%;
     max-width: 12.5%; } }
 @media print, screen and (min-width: 40em) and (min-width: 40em) {
-  /* line 584, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 584, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-expand {
     -ms-flex: 1 1 0px;
     flex: 1 1 0px; } }
 @media print, screen and (min-width: 40em) {
-  /* line 592, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 592, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-dir-row {
     -ms-flex-direction: row;
     flex-direction: row; }
 
-  /* line 596, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 596, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-dir-row-reverse {
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse; }
 
-  /* line 600, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 600, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-dir-column {
     -ms-flex-direction: column;
     flex-direction: column; }
 
-  /* line 604, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 604, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-dir-column-reverse {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse; }
 
-  /* line 608, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 608, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-child-auto {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto; }
 
-  /* line 612, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 612, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-child-grow {
     -ms-flex: 1 0 auto;
     flex: 1 0 auto; }
 
-  /* line 616, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 616, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-child-shrink {
     -ms-flex: 0 1 auto;
     flex: 0 1 auto; } }
-/* line 622, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 622, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row.medium-unstack > .column,
 .row.medium-unstack > .columns {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%; }
 
 @media print, screen and (min-width: 40em) {
-  /* line 630, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 630, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .row.medium-unstack > .column,
   .row.medium-unstack > .columns {
     -ms-flex: 1 1 0px;
     flex: 1 1 0px; } }
 @media print, screen and (min-width: 40em) {
-  /* line 639, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 639, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-collapse > .column,
   .medium-collapse > .columns {
     padding-right: 0;
     padding-left: 0; }
 
-  /* line 644, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 644, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-uncollapse > .column,
   .medium-uncollapse > .columns {
     padding-right: 0;
     padding-left: 0; } }
 @media print, screen and (min-width: 64em) {
-  /* line 653, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 653, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-1 {
     -ms-flex: 0 0 8.33333%;
     flex: 0 0 8.33333%;
     max-width: 8.33333%; }
 
-  /* line 658, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 658, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-0 {
     margin-left: 0%; }
 
-  /* line 661, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 661, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-2 {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
 
-  /* line 666, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 666, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-1 {
     margin-left: 8.33333%; }
 
-  /* line 669, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 669, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
 
-  /* line 674, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 674, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-2 {
     margin-left: 16.66667%; }
 
-  /* line 677, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 677, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-4 {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
 
-  /* line 682, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 682, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-3 {
     margin-left: 25%; }
 
-  /* line 685, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 685, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-5 {
     -ms-flex: 0 0 41.66667%;
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }
 
-  /* line 690, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 690, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-4 {
     margin-left: 33.33333%; }
 
-  /* line 693, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 693, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
 
-  /* line 698, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 698, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-5 {
     margin-left: 41.66667%; }
 
-  /* line 701, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 701, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-7 {
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
 
-  /* line 706, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 706, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-6 {
     margin-left: 50%; }
 
-  /* line 709, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 709, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-8 {
     -ms-flex: 0 0 66.66667%;
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
 
-  /* line 714, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 714, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-7 {
     margin-left: 58.33333%; }
 
-  /* line 717, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 717, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%; }
 
-  /* line 722, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 722, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-8 {
     margin-left: 66.66667%; }
 
-  /* line 725, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 725, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-10 {
     -ms-flex: 0 0 83.33333%;
     flex: 0 0 83.33333%;
     max-width: 83.33333%; }
 
-  /* line 730, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 730, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-9 {
     margin-left: 75%; }
 
-  /* line 733, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 733, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-11 {
     -ms-flex: 0 0 91.66667%;
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
 
-  /* line 738, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 738, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-10 {
     margin-left: 83.33333%; }
 
-  /* line 741, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 741, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
 
-  /* line 746, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 746, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-11 {
     margin-left: 91.66667%; }
 
-  /* line 749, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 749, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-1 {
     -ms-flex-order: 1;
     order: 1; }
 
-  /* line 753, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 753, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-2 {
     -ms-flex-order: 2;
     order: 2; }
 
-  /* line 757, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 757, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-3 {
     -ms-flex-order: 3;
     order: 3; }
 
-  /* line 761, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 761, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-4 {
     -ms-flex-order: 4;
     order: 4; }
 
-  /* line 765, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 765, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-5 {
     -ms-flex-order: 5;
     order: 5; }
 
-  /* line 769, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 769, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-6 {
     -ms-flex-order: 6;
     order: 6; }
 
-  /* line 773, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 773, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-1 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 777, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 777, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-1 > .column,
   .large-up-1 > .columns {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
 
-  /* line 783, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 783, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-2 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 787, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 787, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-2 > .column,
   .large-up-2 > .columns {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
 
-  /* line 793, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 793, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-3 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 797, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 797, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-3 > .column,
   .large-up-3 > .columns {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
 
-  /* line 803, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 803, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-4 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 807, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 807, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-4 > .column,
   .large-up-4 > .columns {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
 
-  /* line 813, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 813, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-5 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 817, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 817, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-5 > .column,
   .large-up-5 > .columns {
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
     max-width: 20%; }
 
-  /* line 823, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 823, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-6 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 827, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 827, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-6 > .column,
   .large-up-6 > .columns {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
 
-  /* line 833, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 833, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-7 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 837, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 837, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-7 > .column,
   .large-up-7 > .columns {
     -ms-flex: 0 0 14.28571%;
     flex: 0 0 14.28571%;
     max-width: 14.28571%; }
 
-  /* line 843, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 843, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-8 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 847, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 847, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-8 > .column,
   .large-up-8 > .columns {
     -ms-flex: 0 0 12.5%;
     flex: 0 0 12.5%;
     max-width: 12.5%; } }
 @media print, screen and (min-width: 64em) and (min-width: 64em) {
-  /* line 857, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 857, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-expand {
     -ms-flex: 1 1 0px;
     flex: 1 1 0px; } }
 @media print, screen and (min-width: 64em) {
-  /* line 865, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 865, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-dir-row {
     -ms-flex-direction: row;
     flex-direction: row; }
 
-  /* line 869, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 869, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-dir-row-reverse {
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse; }
 
-  /* line 873, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 873, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-dir-column {
     -ms-flex-direction: column;
     flex-direction: column; }
 
-  /* line 877, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 877, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-dir-column-reverse {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse; }
 
-  /* line 881, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 881, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-child-auto {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto; }
 
-  /* line 885, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 885, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-child-grow {
     -ms-flex: 1 0 auto;
     flex: 1 0 auto; }
 
-  /* line 889, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 889, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-child-shrink {
     -ms-flex: 0 1 auto;
     flex: 0 1 auto; } }
-/* line 895, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 895, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row.large-unstack > .column,
 .row.large-unstack > .columns {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%; }
 
 @media print, screen and (min-width: 64em) {
-  /* line 903, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 903, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .row.large-unstack > .column,
   .row.large-unstack > .columns {
     -ms-flex: 1 1 0px;
     flex: 1 1 0px; } }
 @media print, screen and (min-width: 64em) {
-  /* line 912, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 912, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-collapse > .column,
   .large-collapse > .columns {
     padding-right: 0;
     padding-left: 0; }
 
-  /* line 917, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 917, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-uncollapse > .column,
   .large-uncollapse > .columns {
     padding-right: 0;
     padding-left: 0; } }
-/* line 924, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 924, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .shrink {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   max-width: 100%; }
 
-/* line 930, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 930, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-right {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-/* line 935, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 935, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-center {
   -ms-flex-pack: center;
   justify-content: center; }
 
-/* line 940, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 940, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-justify {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-/* line 945, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 945, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-spaced {
   -ms-flex-pack: distribute;
   justify-content: space-around; }
 
-/* line 950, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 950, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-top {
   -ms-flex-align: start;
   align-items: flex-start; }
 
-/* line 955, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 955, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-self-top {
   -ms-flex-item-align: start;
   align-self: flex-start; }
 
-/* line 960, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 960, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-bottom {
   -ms-flex-align: end;
   align-items: flex-end; }
 
-/* line 965, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 965, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-self-bottom {
   -ms-flex-item-align: end;
   align-self: flex-end; }
 
-/* line 970, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 970, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-middle {
   -ms-flex-align: center;
   align-items: center; }
 
-/* line 975, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 975, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-self-middle {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center; }
 
-/* line 981, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 981, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-stretch {
   -ms-flex-align: stretch;
   align-items: stretch; }
 
-/* line 986, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 986, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-self-stretch {
   -ms-flex-item-align: stretch;
   -ms-grid-row-align: stretch;
   align-self: stretch; }
 
-/* line 992, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 992, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-1 {
   -ms-flex-order: 1;
   order: 1; }
 
-/* line 997, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 997, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-2 {
   -ms-flex-order: 2;
   order: 2; }
 
-/* line 1002, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 1002, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-3 {
   -ms-flex-order: 3;
   order: 3; }
 
-/* line 1007, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 1007, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-4 {
   -ms-flex-order: 4;
   order: 4; }
 
-/* line 1012, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 1012, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-5 {
   -ms-flex-order: 5;
   order: 5; }
 
-/* line 1017, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 1017, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-6 {
   -ms-flex-order: 6;
   order: 6; }
 
 @media print, screen and (min-width: 40em) {
-  /* line 1024, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1024, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-1 {
     -ms-flex-order: 1;
     order: 1; }
 
-  /* line 1028, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1028, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-2 {
     -ms-flex-order: 2;
     order: 2; }
 
-  /* line 1032, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1032, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-3 {
     -ms-flex-order: 3;
     order: 3; }
 
-  /* line 1036, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1036, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-4 {
     -ms-flex-order: 4;
     order: 4; }
 
-  /* line 1040, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1040, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-5 {
     -ms-flex-order: 5;
     order: 5; }
 
-  /* line 1044, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1044, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-6 {
     -ms-flex-order: 6;
     order: 6; } }
 @media print, screen and (min-width: 64em) {
-  /* line 1052, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1052, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-1 {
     -ms-flex-order: 1;
     order: 1; }
 
-  /* line 1056, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1056, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-2 {
     -ms-flex-order: 2;
     order: 2; }
 
-  /* line 1060, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1060, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-3 {
     -ms-flex-order: 3;
     order: 3; }
 
-  /* line 1064, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1064, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-4 {
     -ms-flex-order: 4;
     order: 4; }
 
-  /* line 1068, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1068, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-5 {
     -ms-flex-order: 5;
     order: 5; }
 
-  /* line 1072, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1072, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-6 {
     -ms-flex-order: 6;
     order: 6; } }
-/* line 3, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/base/_base.css.sass */
+/* line 3, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/base/_base.css.sass */
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 8, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/base/_base.css.sass */
+/* line 8, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/base/_base.css.sass */
 body {
   font-family: "Source Code Pro", monospace;
   font-size: 16px; }
 
-/* line 12, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/base/_base.css.sass */
+/* line 12, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/base/_base.css.sass */
 img {
   display: inline-block;
   vertical-align: middle;
   max-width: 100%;
   -ms-interpolation-mode: bicubic; }
 
-/* line 18, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/base/_base.css.sass */
+/* line 18, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/base/_base.css.sass */
 a {
   text-decoration: none;
   color: #1b1a1b; }
 
-/* line 9, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 9, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 body {
   display: table;
   min-height: 100vh;
   min-width: 100vw; }
   @media screen and (min-width: 40em) {
-    /* line 9, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 9, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     body {
       padding: 1rem; } }
 
-/* line 17, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 17, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 main.container {
   display: table-cell;
   position: relative;
   margin: 0 auto;
   width: 100%;
   vertical-align: middle; }
-  /* line 24, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 24, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   main.container .row {
     max-width: none; }
 
-/* line 27, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 27, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 .left-column {
   display: flex;
   padding: 2.5rem 1.5rem;
   background-color: #ff1d25;
   color: white;
   flex-direction: column; }
-  /* line 34, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 34, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .left-column .content {
     margin: 0 auto;
     width: 100%; }
   @media screen and (min-width: 64em) {
-    /* line 27, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 27, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     .left-column {
       padding: 2.5rem; } }
 
-/* line 41, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 41, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 .right-column {
   display: flex;
   padding: 2.5rem 1.5rem;
   flex-direction: column;
   justify-content: space-between; }
-  /* line 47, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 47, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .right-column .top,
   .right-column .bottom {
     margin: 0 auto;
     width: 100%; }
     @media screen and (min-width: 64em) {
-      /* line 47, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 47, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
       .right-column .top,
       .right-column .bottom {
         max-width: 70%; } }
   @media screen and (min-width: 64em) {
-    /* line 41, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 41, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     .right-column {
       padding: 2.5rem; } }
 
 @media screen and (min-width: 40em) {
-  /* line 60, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 60, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .left-column,
   .right-column {
     width: 50%; }
 
-  /* line 64, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 64, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .left-column:before,
   .right-column:before {
     content: "";
@@ -1689,20 +1689,20 @@ main.container {
     top: 0;
     bottom: 0; }
 
-  /* line 72, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 72, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .left-column:before {
     left: 0;
     right: 50%;
     background-color: #ff1d25;
     z-index: -2; }
 
-  /* line 78, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 78, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .right-column:before {
     left: 50%;
     right: 0;
     background-color: #f6f6f6;
     z-index: -1; } }
-/* line 85, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 85, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 h1.logo {
   display: block;
   margin: 0 0 3rem;
@@ -1713,20 +1713,20 @@ h1.logo {
   background-size: 100%;
   text-indent: -9999px; }
 
-/* line 95, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 95, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 .column-content {
   margin: auto;
   max-width: 80%; }
   @media screen and (max-width: 51.25rem) {
-    /* line 95, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 95, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     .column-content {
       max-width: none; } }
   @media screen and (min-width: 64em) {
-    /* line 95, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 95, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     .column-content {
       max-width: 25rem; } }
 
-/* line 105, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 105, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 .bigLogo {
   display: flex;
   margin: 0 auto 3rem;
@@ -1736,11 +1736,11 @@ h1.logo {
   text-align: center;
   max-width: 80%; }
   @media screen and (min-width: 40em) {
-    /* line 114, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 114, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     .bigLogo #logo {
       max-width: 28.125rem; } }
 
-/* line 118, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 118, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 pre.ready {
   display: inline-block;
   margin: 0;
@@ -1752,17 +1752,17 @@ pre.ready {
   font-weight: 400;
   line-height: 2.3125rem; }
   @media screen and (max-width: 64em) {
-    /* line 118, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 118, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     pre.ready {
       padding: 0 0 0 1rem;
       font-size: 1.125rem;
       line-height: 1.5625rem; } }
   @media screen and (max-width: 20em) {
-    /* line 118, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 118, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     pre.ready {
       font-size: 0.875rem; } }
 
-/* line 138, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 138, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 .social__link {
   display: inline-block;
   margin-right: 1rem;
@@ -1770,11 +1770,11 @@ pre.ready {
   font-size: 0.9375rem;
   border-bottom: 0.0625rem solid #3300ff; }
 
-/* line 145, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 145, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 .intro {
   position: relative;
   margin: 2rem 0; }
-  /* line 149, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 149, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .intro:after {
     content: "";
     display: block;
@@ -1783,17 +1783,17 @@ pre.ready {
     width: 1.25rem;
     height: 0.0625rem;
     background-color: #3300ff; }
-  /* line 158, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 158, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .intro__title {
     margin: 2.5rem 0 1rem;
     color: #3300ff;
     font-size: 2.1875rem;
     font-weight: 600; }
     @media screen and (max-width: 39.9375em) {
-      /* line 158, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 158, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
       .intro__title {
         font-size: 1.875rem; } }
-  /* line 167, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 167, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .intro__description {
     margin: 0;
     padding-bottom: 1.1875rem;
@@ -1801,33 +1801,33 @@ pre.ready {
     font-weight: 300;
     line-height: 1.875rem; }
     @media screen and (max-width: 39.9375em) {
-      /* line 167, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 167, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
       .intro__description {
         font-size: 0.9375rem;
         line-height: 1.9375rem; } }
-    /* line 178, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 178, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     .intro__description__date {
       display: block;
       color: #3300ff;
       font-weight: 400; }
-      /* line 183, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 183, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
       .intro__description__date strong {
         color: #ff1d25; }
 
-/* line 186, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 186, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 .newsletter {
   margin: 2rem 0; }
-  /* line 191, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 191, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .newsletter__description {
     margin: 1.5rem 0;
     color: #787878;
     font-size: 0.875rem;
     line-height: 1.375rem; }
     @media screen and (max-width: 39.9375em) {
-      /* line 191, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 191, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
       .newsletter__description {
         font-size: 0.75rem; } }
-  /* line 200, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 200, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .newsletter__field {
     position: relative;
     display: table;
@@ -1835,10 +1835,10 @@ pre.ready {
     box-shadow: 0 0.09375rem 0.15625rem 0 rgba(196, 196, 196, 0.4);
     table-layout: fixed; }
     @media screen and (max-width: 64em) {
-      /* line 200, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 200, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
       .newsletter__field {
         box-shadow: none; } }
-    /* line 209, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 209, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     .newsletter__field_input, .newsletter__field_button {
       display: table-cell;
       padding: 0 1rem;
@@ -1849,17 +1849,17 @@ pre.ready {
       line-height: 3.125rem;
       outline: none;
       vertical-align: bottom; }
-    /* line 221, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 221, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     .newsletter__field_input {
       border-radius: 0;
       width: calc(100% - 9.375rem); }
       @media screen and (max-width: 64em) {
-        /* line 221, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+        /* line 221, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
         .newsletter__field_input {
           -webkit-appearance: none;
           width: 100%;
           box-shadow: 0 0.09375rem 0.15625rem 0 rgba(196, 196, 196, 0.4); } }
-    /* line 230, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 230, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     .newsletter__field_button {
       background-color: #3300ff;
       color: white;
@@ -1868,25 +1868,25 @@ pre.ready {
       font-weight: 600;
       width: 9.375rem; }
       @media screen and (max-width: 64em) {
-        /* line 230, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+        /* line 230, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
         .newsletter__field_button {
           margin-top: 1rem;
           width: 100%; } }
 
-/* line 243, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 243, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 .sponsors__title {
   margin-bottom: 0;
   font-size: 0.9375rem;
   color: #3300ff; }
-/* line 248, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 248, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 .sponsors__list {
   margin: 0;
   padding: 0;
   list-style: none; }
-  /* line 253, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 253, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
   .sponsors__list_item {
     display: inline-block; }
-    /* line 256, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 256, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
     .sponsors__list_item a.monoku {
       display: inline-block;
       width: 6.625rem;
@@ -1897,17 +1897,17 @@ pre.ready {
       text-indent: -9999px;
       font-size: 1px; }
 
-/* line 266, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 266, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 #PhotoPP1 {
   transition: all 500ms cubic-bezier(0.24, 0.12, 0.16, 1.06);
   transform: translate3d(0px, -650px, 0px); }
 
-/* line 270, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 270, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 #PhotoPP2 {
   transition: all 500ms cubic-bezier(0.24, 0.12, 0.16, 1.06);
   transform: translate3d(-54px, 0px, 0px); }
 
-/* line 274, /Users/luisvillalobos/Projects/Monoku/RubyConfCo/RubyConfCo/source/assets/stylesheets/application/_landing.css.sass */
+/* line 274, /Users/tarjan/code/rubyconf/web2017/source/assets/stylesheets/application/_landing.css.sass */
 #PhotoPP3 {
   transition: all 500ms cubic-bezier(0.24, 0.12, 0.16, 1.06);
   transform: translate3d(-446px, -650px, 0px); }
