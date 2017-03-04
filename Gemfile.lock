@@ -30,7 +30,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.7)
+    eventmachine (1.0.9.1)
     execjs (2.5.0)
     ffi (1.9.8)
     haml (4.0.6)
@@ -88,8 +88,7 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
-    puma (2.11.2)
-      rack (>= 1.1, < 2.0)
+    puma (3.7.1)
     rack (1.6.0)
     rack-livereload (0.3.15)
       rack
@@ -125,12 +124,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  eventmachine (~> 1.0.9)
   middleman (~> 3.3.10)
   middleman-livereload (~> 3.1.0)
-  puma (~> 2.11.2)
+  puma (~> 3.7.1)
 
 RUBY VERSION
    ruby 2.2.2p95
 
 BUNDLED WITH
-   1.14.5
+   1.14.6
