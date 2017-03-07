@@ -2,11 +2,12 @@
 
 This is the site for [RubyConf Colombia](http://rubyconf.co).
 
-See [LICENSE](https://github.com/RubyConfCo/rubyconf.co/blob/master/LICENSE.md)
+See
+[LICENSE](https://github.com/RubyConfCo/rubyconfco-website-2017/blob/master/LICENSE.md)
 
 ## Usage
 ### Install
-- [Ruby 2.2.2](https://www.ruby-lang.org)
+- [Ruby 2.4.0](https://www.ruby-lang.org)
 - [Middleman](https://middlemanapp.com/)
 
 Run the following commands:
