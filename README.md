@@ -21,3 +21,5 @@ middleman server
 ```
 middleman build
 ```
+
+This will output the built site to the `docs/` folder
