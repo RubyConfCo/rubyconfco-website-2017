@@ -68,6 +68,8 @@ set :relative_links, true
 
 set :haml, { :ugly => true, :format => :html5 }
 
+set :build_dir, 'docs'
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
