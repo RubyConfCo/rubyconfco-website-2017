@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.2'
+ruby '2.4.0'
 
 gem 'eventmachine', '~> 1.0.9'
 gem 'middleman', '~>3.3.10'
