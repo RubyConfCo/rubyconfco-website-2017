@@ -17,16 +17,8 @@
 # page "/path/to/file.html", :layout => false
 #
 # With alternative layout
-page "/code_of_conduct.html", :layout => :otherlayout
-page "/codigo-de-conducta.html", :layout => :otherlayout
-page "/hotels.html", :layout => :otherlayout
-page "/estudiantes.html", :layout => :otherlayout
-page "/ambassadors.html", :layout => :otherlayout
-page "/embajadores.html", :layout => :otherlayout
-page "/faq.html", :layout => :otherlayout
-page "/becas_diversidad.html", :layout => :otherlayout
-page "/medellin.html", :layout => :otherlayout
-page "/mentores.html", :layout => :otherlayout
+page "/code-of-conduct.html"
+page "/codigo-de-conducta.html"
 #
 # A path which all have the same layout
 # with_layout :admin do
