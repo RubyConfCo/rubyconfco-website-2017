@@ -7,7 +7,7 @@ title: RubyConf Colombia 2017
     .content
       .column-content
         %h1.logo
-          Ruby Conf. Colombia.
+          RubyConf. Colombia.
       .bigLogo
         %svg{:id => "logo", :viewbox => "0 0 307 288", :width => "100%"}
           %defs
@@ -29,32 +29,34 @@ title: RubyConf Colombia 2017
         %pre.ready
           :preserve
             % ruby
-            puts "Hola ¿estás listo?"
+            puts "Hey, are you ready?"
   .column.right-column
     .top
       .social
-        %a.social__link{:href => "http://facebook.com/RubyConfCo", :taget => '_blank'} Facebook
         %a.social__link{:href => "http://twitter.com/RubyConfCo", :taget => '_blank'} Twitter
+        %a.social__link{:href => "http://facebook.com/RubyConfCo", :taget => '_blank'} Facebook
       .intro
-        %h2.intro__title &gt;&gt; Hola ¿estás listo?
+        %h2.intro__title &gt;&gt; Hey, are you ready?
         %p.intro__description
-          Queremos que seas parte de <strong>RubyConf Colombia 2017</strong>. Nuestro equipo organizador está trabajando activamente en seleccionar el mejor contenido para hacer un evento inolvidable.
+          Be part of <strong>RubyConf Colombia 2017</strong>. The organizing team is hard at work to make this one of the best Ruby conferences ever.
           %span.intro__description__date
-            Septiembre
+            September
             %strong 8
-            y
+            and
             %strong 9
-            de 2017
+            \/ 2017
       .newsletter
         .newsletter__description
-          Si quieres recibir información sobre la conferencia, regístrate y te estaremos contactando con detalles sobre la organización del evento.
+          If you want to receive info about the conference, join our mailing list.
+          %br
+          No spam, we promise.
         %form.form.row.newsletter__form.mailchimp-form{:action => "//rubyconf.us11.list-manage.com/subscribe/post?u=7b7c2e5ead7427750ced71f09&id=22ba1d80e6", :enctype => "multipart/form-data", :method => "post", :name => "mc-embedded-subscribe-form", :target => "_blank"}
           .newsletter__field
-            %input#EMAIL.newsletter__field_input{:name => "EMAIL", :placeholder => "tu@email.com", :type => "email"}/
-            %button.newsletter__field_button Suscribirse
+            %input#EMAIL.newsletter__field_input{:name => "EMAIL", :placeholder => "your@email.com", :type => "email"}/
+            %button.newsletter__field_button Subscribe
     .bottom
       .sponsors
-        %h4.sponsors__title Apoya:
+        %h4.sponsors__title Sponsors:
         %ul.sponsors__list
           %li.sponsors__list_item
             %a.monoku{:href => "http://monoku.com/"} Monoku
