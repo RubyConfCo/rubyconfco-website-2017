@@ -11,9 +11,6 @@ body
   min-height: 100vh
   min-width: 100vw
 
-  @media screen and (min-width: 40em)
-    padding: 1rem
-
 main.container
   display: table-cell
   position: relative
@@ -81,17 +78,6 @@ main.container
     background-color: $white-color
     z-index: -1
 
-
-h1.logo
-  display: block
-  margin: 0 0 3rem
-  width: (156 * $px)
-  height: (60 * $px)
-  background-image: url('../images/logo-ruby.svg')
-  background-repeat: no-repeat
-  background-size: 100%
-  text-indent: -9999px
-
 .column-content
   margin: auto
   max-width: 80%
@@ -102,6 +88,12 @@ h1.logo
   @media screen and (min-width: 64em)
     max-width: (400 * $px)
 
+.title
+  margin: $half-white-space $half-white-space $white-space $half-white-space
+  text-align: center
+  p
+    font-size: (22 * $px)
+    margin: 0
 .bigLogo
   display: flex
   margin: 0 auto 3rem
@@ -109,7 +101,7 @@ h1.logo
   align-items: center
   justify-content: center
   text-align: center
-  max-width: 80%
+  max-width: 90%
 
   #logo
     @media screen and (min-width: 40em)
@@ -134,13 +126,44 @@ pre.ready
   @media screen and (max-width: 20em)
     font-size: (14 * $px)
 
+.topHead
+  display: flex
+  align-items: center
+
+.topLogo
+  h1.logo
+    display: block
+    width: (102 * $px)
+    height: (58 * $px)
+    background-image: url('../images/logo-ruby.svg')
+    background-repeat: no-repeat
+    background-size: 100%
+    background-position: center
+    text-indent: -9999px
+    margin: 0
+
 .social
+  margin-left: auto
+  text-align: right
+  margin-right: -0.5rem
+
   &__link
     display: inline-block
-    margin-right: 1rem
+    margin: 0 0.5rem
     color: black
     font-size: $font-size-md
-    border-bottom: (1 * $px) solid $secondary-color
+    position: relative
+    padding-bottom: 0.25rem
+    float: left
+
+    &::after
+      background-color: $secondary-color
+      content: ''
+      height: 1px
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
 
 .intro
   position: relative
@@ -238,6 +261,30 @@ pre.ready
       @media screen and (max-width: 64em)
         margin-top: 1rem
         width: 100%
+.pastEvents
+  margin-left: -0.5rem
+  p,
+  a
+    display: inline-block
+    margin: 0 0.5rem
+    float: left
+
+  p
+    color: $secondary-color
+    font-weight: bold
+
+  a
+    position: relative
+    padding-bottom: 0.25rem
+
+    &::after
+      background-color: $secondary-color
+      content: ''
+      height: 1px
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
 
 .sponsors
   &__title
@@ -263,14 +310,16 @@ pre.ready
         text-indent: -9999px
         font-size: 1px
 
-#PhotoPP1
+#PhotoPP1,
+#PhotoPP2,
+#PhotoPP3,
+#PhotoPP6,
+#PhotoPP7
   transition: all 500ms cubic-bezier(0.24, 0.12, 0.16, 1.06)
-  transform: translate3d(0px, -650px, 0px)
+  transform: translate3d(0px, 0px, 0px)
 
-#PhotoPP2
+#PhotoPP4,
+#PhotoPP5,
+#PhotoPP8
   transition: all 500ms cubic-bezier(0.24, 0.12, 0.16, 1.06)
-  transform: translate3d(-54px, 0px, 0px)
-
-#PhotoPP3
-  transition: all 500ms cubic-bezier(0.24, 0.12, 0.16, 1.06)
-  transform: translate3d(-446px, -650px, 0px)
+  transform: translate3d(-1242px, 0px, 0px)
