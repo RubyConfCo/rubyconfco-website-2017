@@ -338,17 +338,23 @@ button.button_buy_tickets
   &__profiles
     list-style: none
     display: flex
+    padding: 0
     @media screen and (max-width: 39.9375em)
-      flex-direction: column
-      justify-content: center
-      align-items: center
+      flex-direction: row
+      justify-content: flex-start
+      align-items: baseline
       margin-top: 1rem
+      flex-wrap: wrap
+
   &__item
     width: 110px
     max-width: 110px
     margin-right: 25px
     @media screen and (max-width: 39.9375em)
-      margin-top: .5rem
+      margin-top: 1.5rem
+      width: 50%
+      max-width: 50%
+      margin-right: 0
   &__link
     display: block
     img
