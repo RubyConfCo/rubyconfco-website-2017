@@ -54,10 +54,11 @@ title: RubyConf Colombia 2017
           %g{"clip-path" => "url(#PP8)"}
             %image#PhotoPP8{:height => "332", :width => "1656", "xlink:href" => "./assets/images/imagenC-min.jpg"}
       .column-content
-        %pre.ready
-          :preserve
-            % ruby
-            puts "Hey, are you ready?"
+        %button.button_buy_tickets Buy tickets
+        .pastEvents
+          %p Previous events
+          %a{:href => "http://2016.rubyconf.co", :target => "_blank"} 2016
+          %a{:href => "http://2015.rubyconf.co", :target => "_blank"} 2015
   .column.right-column
     .top
       .topHead
@@ -83,17 +84,34 @@ title: RubyConf Colombia 2017
 
       .newsletter
         .newsletter__description
-          If you want to receive info about the conference, join our mailing list.
-          %br
-          No spam, we promise.
+          If you want to receive info about the conference, join our mailing list.No spam, we promise.
         %form.form.row.newsletter__form.mailchimp-form{:action => "//rubyconf.us11.list-manage.com/subscribe/post?u=7b7c2e5ead7427750ced71f09&id=e7b035683b", :enctype => "multipart/form-data", :method => "post", :name => "mc-embedded-subscribe-form", :target => "_blank"}
           .newsletter__field
             %input#EMAIL.newsletter__field_input{:name => "EMAIL", :placeholder => "your@email.com", :type => "email"}/
             %button.newsletter__field_button Subscribe
-      .pastEvents
-        %p Previous events
-        %a{:href => "http://2016.rubyconf.co", :target => "_blank"} 2016
-        %a{:href => "http://2015.rubyconf.co", :target => "_blank"} 2015
+      .speakers
+        %h4.speakers__title Speakers:
+        %ul.speakers__profiles
+          %li.speakers__item
+            %a.speakers__link{:href => "https://twitter.com/eileencodes", :target => "_blank"}
+              %img{:src => "./assets/images/speakers/Eileen-m-Uchitelle.jpeg", :alt => "Eileen M. Uchitelle"}
+              %p.profile_woodroffe
+                Eileen
+              %p.profile_woodroffe
+                M. Uchitelle
+          %li.speakers__item
+            %a.speakers__link{:href => "https://twitter.com/konstantinhaase", :target => "_blank"}
+              %img{:src => "./assets/images/speakers/Konstantin.jpg", :alt => "Konstantin"}
+              %p.profile_woodroffe
+                Konstantin
+          %li.speakers__item
+            %a.speakers__link{:href => "https://twitter.com/jmcharnes", :target => "_blank"}
+              %img{:src => "./assets/images/speakers/Jason-charnes.jpg", :alt => "Jason Charnes"}
+              %p.profile_woodroffe
+                Jason
+              %p.profile_woodroffe
+                Charnes
+
     .bottom
       .sponsors
         %h4.sponsors__title Sponsors:

@@ -47,16 +47,18 @@ main.container
     width: 100%
 
     @media screen and (min-width: 64em)
-      max-width: 70%
+      max-width: 90%
 
   @media screen and (min-width: 64em)
     padding: 2.5rem
 
 
 @media screen and (min-width: 40em)
-  .left-column,
+  .left-column
+    width: 35%
+    flex: 0 0 auto
   .right-column
-    width: 50%
+    width: 65%
 
   .left-column:before,
   .right-column:before
@@ -68,12 +70,12 @@ main.container
 
   .left-column:before
     left: 0
-    right: 50%
+    right: 65%
     background-color: $primary-color
     z-index: -2
 
   .right-column:before
-    left: 50%
+    left: 35%
     right: 0
     background-color: $white-color
     z-index: -1
@@ -81,6 +83,10 @@ main.container
 .column-content
   margin: auto
   max-width: 80%
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
 
   @media screen and (max-width: (820 * $px))
     max-width: none
@@ -105,7 +111,7 @@ main.container
 
   #logo
     @media screen and (min-width: 40em)
-      max-width: (450 * $px)
+      max-width: (350 * $px)
 
 pre.ready
   display: inline-block
@@ -125,6 +131,51 @@ pre.ready
 
   @media screen and (max-width: 20em)
     font-size: (14 * $px)
+button.button_buy_tickets
+  display: block
+  padding: 0 1rem
+  height: (50 * $px)
+  border: none
+  font-size: (15 * $px)
+  font-family: inherit
+  line-height: (50 * $px)
+  outline: none
+  vertical-align: bottom
+  background-color: $secondary-color
+  color: white
+  cursor: pointer
+  font-size: $font-size-md
+  font-weight: 600
+  width: (312 * $px)
+  margin: 0 auto
+  @media screen and (max-width: 64em)
+    width: (200 * $px)
+
+.pastEvents
+  margin-left: -0.5rem
+  margin-top: 6rem
+  p,
+  a
+    display: inline-block
+    margin: 0 0.5rem
+    float: left
+  p
+    color: $white
+    font-weight: bold
+
+  a
+    position: relative
+    padding-bottom: 0.25rem
+    color: $white
+
+    &::after
+      background-color: $secondary-color
+      content: ''
+      height: 1px
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
 
 .topHead
   display: flex
@@ -190,9 +241,10 @@ pre.ready
   &__description
     margin: 0
     padding-bottom: $font-size-lg
-    font-size: $font-size-lg
+    font-size: $font-size-md
     font-weight: 300
     line-height: (30 * $px)
+    width: 85%
 
     @media screen and (max-width: 39.9375em)
       font-size: $font-size-md
@@ -212,18 +264,25 @@ pre.ready
 
 .newsletter
   $button-width: (150 * $px)
-
+  display: flex
+  align-items: center
+  justify-content: center
   margin: 2rem 0
-
+  @media screen and (max-width: 39.9375em)
+    flex-direction: column
   &__description
     margin: 1.5rem 0
-    color: $gray-color
+    color: $greyish-brown
     font-size: $font-size-sm
-    line-height: (22 * $px)
+    line-height: (13 * $px)
+    width: 35%
+    margin-right: (20 * $px)
 
     @media screen and (max-width: 39.9375em)
-      font-size: (12 * $px)
-
+      font-size: (15 * $px)
+      width: 90%
+  &__form
+    flex: 1
   &__field
     position: relative
     display: table
@@ -265,41 +324,70 @@ pre.ready
       @media screen and (max-width: 64em)
         margin-top: 1rem
         width: 100%
-.pastEvents
-  margin-left: -0.5rem
-  p,
-  a
-    display: inline-block
-    margin: 0 0.5rem
-    float: left
-
-  p
-    color: $secondary-color
-    font-weight: bold
-
-  a
-    position: relative
-    padding-bottom: 0.25rem
-
-    &::after
-      background-color: $secondary-color
-      content: ''
-      height: 1px
-      position: absolute
-      bottom: 0
-      left: 0
-      width: 100%
-
-.sponsors
+.speakers
+  display: flex
+  margin-bottom: 1rem
+  @media screen and (max-width: 39.9375em)
+    flex-wrap: wrap
+    flex-direction: column
   &__title
     margin-bottom: 0
+    margin-right: (25 * $px)
     font-size: $font-size-md
     color: $secondary-color
+  &__profiles
+    list-style: none
+    display: flex
+    padding: 0
+    @media screen and (max-width: 39.9375em)
+      flex-direction: row
+      justify-content: flex-start
+      align-items: baseline
+      margin-top: 1rem
+      flex-wrap: wrap
 
+  &__item
+    width: 110px
+    max-width: 110px
+    margin-right: 25px
+    @media screen and (max-width: 39.9375em)
+      margin-top: 1.5rem
+      width: 50%
+      max-width: 50%
+      margin-right: 0
+  &__link
+    display: block
+    img
+      width: 77px
+      height: 77px
+      border-radius: 50%
+      display: block
+      margin: 0 auto
+    p 
+      font-size: $font-size-sm
+      font-weight: 300
+      text-align: center
+      margin: 5px auto
+.sponsors
+  display: flex
+  @media screen and (max-width: 39.9375em)
+    flex-wrap: wrap
+    flex-direction: column
+  &__title
+    margin-bottom: 0
+    margin-right: (25 * $px)
+    font-size: $font-size-md
+    color: $secondary-color
   &__list
     margin: 0
     padding: 0
     list-style: none
+    @media screen and (max-width: 39.9375em)
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      margin-top: 1rem
 
     &_item
       display: inline-block
