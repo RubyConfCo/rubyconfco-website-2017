@@ -131,7 +131,7 @@ pre.ready
 
   @media screen and (max-width: 20em)
     font-size: (14 * $px)
-button.button_buy_tickets
+a.button_buy_tickets
   display: block
   padding: 0 1rem
   height: (50 * $px)
@@ -141,6 +141,7 @@ button.button_buy_tickets
   line-height: (50 * $px)
   outline: none
   vertical-align: bottom
+  text-align: center
   background-color: $secondary-color
   color: white
   cursor: pointer
@@ -150,6 +151,22 @@ button.button_buy_tickets
   margin: 0 auto
   @media screen and (max-width: 64em)
     width: (200 * $px)
+
+.cocLink
+  margin-top: 2rem
+  a
+    position: relative
+    padding-bottom: 0.25rem
+    color: $white
+
+    &::after
+      background-color: $secondary-color
+      content: ''
+      height: 1px
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
 
 .pastEvents
   margin-left: -0.5rem
@@ -404,8 +421,9 @@ button.button_buy_tickets
 
       a.prompt
         display: inline-block
-        width: (106 * $px)
+        width: (206 * $px)
         height: (50 * $px)
+        margin-left: 2rem
         background-image: url('../images/sponsors/prompt.png')
         background-repeat: no-repeat
         background-size: cover
