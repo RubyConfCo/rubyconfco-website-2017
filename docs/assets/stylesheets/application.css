@@ -7,7 +7,7 @@
  */
 /* Document
    ========================================================================== */
-/* line 14, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 14, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -23,14 +23,14 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
-/* line 28, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 28, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 body {
   margin: 0; }
 
 /**
  * Add the correct display in IE 9-.
  */
-/* line 36, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 36, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 article,
 aside,
 footer,
@@ -43,7 +43,7 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 50, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 50, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -54,7 +54,7 @@ h1 {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
-/* line 63, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 63, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 figcaption,
 figure,
 main {
@@ -64,7 +64,7 @@ main {
 /**
  * Add the correct margin in IE 8.
  */
-/* line 73, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 73, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
@@ -72,7 +72,7 @@ figure {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 82, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 82, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -85,7 +85,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 93, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 93, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -98,7 +98,7 @@ pre {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
-/* line 106, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 106, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 a {
   background-color: transparent;
   /* 1 */
@@ -109,7 +109,7 @@ a {
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
  */
-/* line 116, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 116, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 a:active,
 a:hover {
   outline-width: 0; }
@@ -118,7 +118,7 @@ a:hover {
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 126, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 126, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -130,7 +130,7 @@ abbr[title] {
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-/* line 136, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 136, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 b,
 strong {
   font-weight: inherit; }
@@ -138,7 +138,7 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 145, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 145, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 b,
 strong {
   font-weight: bolder; }
@@ -147,7 +147,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 155, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 155, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 code,
 kbd,
 samp {
@@ -159,14 +159,14 @@ samp {
 /**
  * Add the correct font style in Android 4.3-.
  */
-/* line 166, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 166, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 dfn {
   font-style: italic; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
-/* line 174, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 174, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 mark {
   background-color: #ff0;
   color: #000; }
@@ -174,7 +174,7 @@ mark {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 183, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 183, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 small {
   font-size: 80%; }
 
@@ -182,7 +182,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 192, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 192, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -190,11 +190,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 200, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 200, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 204, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 204, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 sup {
   top: -0.5em; }
 
@@ -203,7 +203,7 @@ sup {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 215, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 215, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 audio,
 video {
   display: inline-block; }
@@ -211,7 +211,7 @@ video {
 /**
  * Add the correct display in iOS 4-7.
  */
-/* line 224, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 224, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -219,14 +219,14 @@ audio:not([controls]) {
 /**
  * Remove the border on images inside links in IE 10-.
  */
-/* line 233, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 233, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 img {
   border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
-/* line 241, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 241, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -236,7 +236,7 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 253, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 253, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button,
 input,
 optgroup,
@@ -255,7 +255,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 269, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 269, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -265,7 +265,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 279, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 279, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -276,7 +276,7 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 290, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 290, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button,
 html [type="button"],
 [type="reset"],
@@ -287,7 +287,7 @@ html [type="button"],
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 301, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 301, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -298,7 +298,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 313, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 313, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -308,7 +308,7 @@ button:-moz-focusring,
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
  */
-/* line 324, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 324, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -320,7 +320,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 337, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 337, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -339,7 +339,7 @@ legend {
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 351, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 351, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 progress {
   display: inline-block;
   /* 1 */
@@ -349,7 +349,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE.
  */
-/* line 360, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 360, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -357,7 +357,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
-/* line 369, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 369, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -368,7 +368,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 379, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 379, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -377,7 +377,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 389, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 389, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -387,7 +387,7 @@ textarea {
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
-/* line 398, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 398, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -396,7 +396,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 408, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 408, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -409,7 +409,7 @@ textarea {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
-/* line 421, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 421, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 details,
 menu {
   display: block; }
@@ -417,7 +417,7 @@ menu {
 /*
  * Add the correct display in all browsers.
  */
-/* line 430, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 430, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 summary {
   display: list-item; }
 
@@ -426,14 +426,14 @@ summary {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 441, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 441, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 canvas {
   display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
-/* line 449, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 449, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 template {
   display: none; }
 
@@ -442,7 +442,7 @@ template {
 /**
  * Add the correct display in IE 10-.
  */
-/* line 460, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
+/* line 460, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_normalize.scss */
 [hidden] {
   display: none; }
 
@@ -452,7 +452,7 @@ template {
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
-/* line 9, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 9, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row {
   max-width: 62.5rem;
   margin-right: auto;
@@ -462,39 +462,39 @@ template {
   -ms-flex-flow: row wrap;
   flex-flow: row wrap; }
 
-/* line 19, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 19, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row .row {
   margin-right: 0;
   margin-left: 0; }
 
 @media print, screen and (min-width: 40em) {
-  /* line 26, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 26, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .row .row {
     margin-right: 0;
     margin-left: 0; } }
 @media print, screen and (min-width: 64em) {
-  /* line 34, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 34, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .row .row {
     margin-right: 0;
     margin-left: 0; } }
-/* line 40, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 40, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row.expanded {
   max-width: none; }
 
-/* line 44, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 44, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row.collapse > .column,
 .row.collapse > .columns {
   padding-right: 0;
   padding-left: 0; }
 
-/* line 50, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 50, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row.is-collapse-child,
 .row.collapse > .column > .row,
 .row.collapse > .columns > .row {
   margin-right: 0;
   margin-left: 0; }
 
-/* line 57, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 57, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .column,
 .columns {
   -ms-flex: 1 1 0px;
@@ -503,13 +503,13 @@ template {
   padding-left: 0;
   min-width: initial; }
 
-/* line 66, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 66, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .column.row.row,
 .row.row.columns {
   display: -ms-flexbox;
   display: flex; }
 
-/* line 72, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 72, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row .column.row.row,
 .row .row.row.columns {
   margin-right: 0;
@@ -517,1170 +517,1170 @@ template {
   padding-right: 0;
   padding-left: 0; }
 
-/* line 80, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 80, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-container {
   display: -ms-flexbox;
   display: flex; }
 
-/* line 85, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 85, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-child-auto {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto; }
 
-/* line 90, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 90, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-child-grow {
   -ms-flex: 1 0 auto;
   flex: 1 0 auto; }
 
-/* line 95, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 95, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-child-shrink {
   -ms-flex: 0 1 auto;
   flex: 0 1 auto; }
 
-/* line 100, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 100, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-dir-row {
   -ms-flex-direction: row;
   flex-direction: row; }
 
-/* line 105, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 105, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-dir-row-reverse {
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse; }
 
-/* line 110, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 110, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-dir-column {
   -ms-flex-direction: column;
   flex-direction: column; }
 
-/* line 115, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 115, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .flex-dir-column-reverse {
   -ms-flex-direction: column-reverse;
   flex-direction: column-reverse; }
 
-/* line 120, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 120, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-1 {
   -ms-flex: 0 0 8.33333%;
   flex: 0 0 8.33333%;
   max-width: 8.33333%; }
 
-/* line 126, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 126, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-0 {
   margin-left: 0%; }
 
-/* line 130, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 130, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-2 {
   -ms-flex: 0 0 16.66667%;
   flex: 0 0 16.66667%;
   max-width: 16.66667%; }
 
-/* line 136, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 136, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-1 {
   margin-left: 8.33333%; }
 
-/* line 140, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 140, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-3 {
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
   max-width: 25%; }
 
-/* line 146, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 146, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-2 {
   margin-left: 16.66667%; }
 
-/* line 150, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 150, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-4 {
   -ms-flex: 0 0 33.33333%;
   flex: 0 0 33.33333%;
   max-width: 33.33333%; }
 
-/* line 156, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 156, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-3 {
   margin-left: 25%; }
 
-/* line 160, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 160, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-5 {
   -ms-flex: 0 0 41.66667%;
   flex: 0 0 41.66667%;
   max-width: 41.66667%; }
 
-/* line 166, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 166, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-4 {
   margin-left: 33.33333%; }
 
-/* line 170, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 170, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-6 {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%; }
 
-/* line 176, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 176, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-5 {
   margin-left: 41.66667%; }
 
-/* line 180, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 180, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-7 {
   -ms-flex: 0 0 58.33333%;
   flex: 0 0 58.33333%;
   max-width: 58.33333%; }
 
-/* line 186, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 186, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-6 {
   margin-left: 50%; }
 
-/* line 190, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 190, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-8 {
   -ms-flex: 0 0 66.66667%;
   flex: 0 0 66.66667%;
   max-width: 66.66667%; }
 
-/* line 196, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 196, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-7 {
   margin-left: 58.33333%; }
 
-/* line 200, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 200, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-9 {
   -ms-flex: 0 0 75%;
   flex: 0 0 75%;
   max-width: 75%; }
 
-/* line 206, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 206, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-8 {
   margin-left: 66.66667%; }
 
-/* line 210, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 210, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-10 {
   -ms-flex: 0 0 83.33333%;
   flex: 0 0 83.33333%;
   max-width: 83.33333%; }
 
-/* line 216, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 216, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-9 {
   margin-left: 75%; }
 
-/* line 220, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 220, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-11 {
   -ms-flex: 0 0 91.66667%;
   flex: 0 0 91.66667%;
   max-width: 91.66667%; }
 
-/* line 226, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 226, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-10 {
   margin-left: 83.33333%; }
 
-/* line 230, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 230, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-12 {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%; }
 
-/* line 236, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 236, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-offset-11 {
   margin-left: 91.66667%; }
 
-/* line 240, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 240, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-1 {
   -ms-flex-order: 1;
   order: 1; }
 
-/* line 245, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 245, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-2 {
   -ms-flex-order: 2;
   order: 2; }
 
-/* line 250, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 250, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-3 {
   -ms-flex-order: 3;
   order: 3; }
 
-/* line 255, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 255, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-4 {
   -ms-flex-order: 4;
   order: 4; }
 
-/* line 260, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 260, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-5 {
   -ms-flex-order: 5;
   order: 5; }
 
-/* line 265, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 265, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-6 {
   -ms-flex-order: 6;
   order: 6; }
 
-/* line 270, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 270, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-1 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 275, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 275, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-1 > .column,
 .small-up-1 > .columns {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%; }
 
-/* line 282, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 282, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-2 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 287, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 287, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-2 > .column,
 .small-up-2 > .columns {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%; }
 
-/* line 294, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 294, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-3 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 299, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 299, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-3 > .column,
 .small-up-3 > .columns {
   -ms-flex: 0 0 33.33333%;
   flex: 0 0 33.33333%;
   max-width: 33.33333%; }
 
-/* line 306, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 306, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-4 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 311, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 311, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-4 > .column,
 .small-up-4 > .columns {
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
   max-width: 25%; }
 
-/* line 318, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 318, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-5 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 323, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 323, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-5 > .column,
 .small-up-5 > .columns {
   -ms-flex: 0 0 20%;
   flex: 0 0 20%;
   max-width: 20%; }
 
-/* line 330, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 330, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-6 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 335, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 335, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-6 > .column,
 .small-up-6 > .columns {
   -ms-flex: 0 0 16.66667%;
   flex: 0 0 16.66667%;
   max-width: 16.66667%; }
 
-/* line 342, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 342, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-7 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 347, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 347, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-7 > .column,
 .small-up-7 > .columns {
   -ms-flex: 0 0 14.28571%;
   flex: 0 0 14.28571%;
   max-width: 14.28571%; }
 
-/* line 354, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 354, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-8 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 359, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 359, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-up-8 > .column,
 .small-up-8 > .columns {
   -ms-flex: 0 0 12.5%;
   flex: 0 0 12.5%;
   max-width: 12.5%; }
 
-/* line 366, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 366, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-collapse > .column,
 .small-collapse > .columns {
   padding-right: 0;
   padding-left: 0; }
 
-/* line 372, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 372, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-uncollapse > .column,
 .small-uncollapse > .columns {
   padding-right: 0;
   padding-left: 0; }
 
 @media print, screen and (min-width: 40em) {
-  /* line 380, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 380, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-1 {
     -ms-flex: 0 0 8.33333%;
     flex: 0 0 8.33333%;
     max-width: 8.33333%; }
 
-  /* line 385, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 385, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-0 {
     margin-left: 0%; }
 
-  /* line 388, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 388, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-2 {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
 
-  /* line 393, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 393, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-1 {
     margin-left: 8.33333%; }
 
-  /* line 396, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 396, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
 
-  /* line 401, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 401, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-2 {
     margin-left: 16.66667%; }
 
-  /* line 404, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 404, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-4 {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
 
-  /* line 409, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 409, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-3 {
     margin-left: 25%; }
 
-  /* line 412, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 412, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-5 {
     -ms-flex: 0 0 41.66667%;
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }
 
-  /* line 417, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 417, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-4 {
     margin-left: 33.33333%; }
 
-  /* line 420, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 420, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
 
-  /* line 425, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 425, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-5 {
     margin-left: 41.66667%; }
 
-  /* line 428, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 428, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-7 {
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
 
-  /* line 433, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 433, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-6 {
     margin-left: 50%; }
 
-  /* line 436, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 436, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-8 {
     -ms-flex: 0 0 66.66667%;
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
 
-  /* line 441, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 441, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-7 {
     margin-left: 58.33333%; }
 
-  /* line 444, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 444, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%; }
 
-  /* line 449, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 449, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-8 {
     margin-left: 66.66667%; }
 
-  /* line 452, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 452, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-10 {
     -ms-flex: 0 0 83.33333%;
     flex: 0 0 83.33333%;
     max-width: 83.33333%; }
 
-  /* line 457, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 457, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-9 {
     margin-left: 75%; }
 
-  /* line 460, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 460, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-11 {
     -ms-flex: 0 0 91.66667%;
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
 
-  /* line 465, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 465, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-10 {
     margin-left: 83.33333%; }
 
-  /* line 468, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 468, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
 
-  /* line 473, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 473, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-offset-11 {
     margin-left: 91.66667%; }
 
-  /* line 476, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 476, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-1 {
     -ms-flex-order: 1;
     order: 1; }
 
-  /* line 480, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 480, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-2 {
     -ms-flex-order: 2;
     order: 2; }
 
-  /* line 484, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 484, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-3 {
     -ms-flex-order: 3;
     order: 3; }
 
-  /* line 488, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 488, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-4 {
     -ms-flex-order: 4;
     order: 4; }
 
-  /* line 492, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 492, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-5 {
     -ms-flex-order: 5;
     order: 5; }
 
-  /* line 496, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 496, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-6 {
     -ms-flex-order: 6;
     order: 6; }
 
-  /* line 500, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 500, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-1 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 504, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 504, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-1 > .column,
   .medium-up-1 > .columns {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
 
-  /* line 510, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 510, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-2 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 514, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 514, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-2 > .column,
   .medium-up-2 > .columns {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
 
-  /* line 520, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 520, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-3 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 524, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 524, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-3 > .column,
   .medium-up-3 > .columns {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
 
-  /* line 530, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 530, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-4 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 534, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 534, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-4 > .column,
   .medium-up-4 > .columns {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
 
-  /* line 540, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 540, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-5 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 544, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 544, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-5 > .column,
   .medium-up-5 > .columns {
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
     max-width: 20%; }
 
-  /* line 550, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 550, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-6 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 554, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 554, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-6 > .column,
   .medium-up-6 > .columns {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
 
-  /* line 560, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 560, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-7 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 564, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 564, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-7 > .column,
   .medium-up-7 > .columns {
     -ms-flex: 0 0 14.28571%;
     flex: 0 0 14.28571%;
     max-width: 14.28571%; }
 
-  /* line 570, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 570, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-8 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 574, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 574, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-up-8 > .column,
   .medium-up-8 > .columns {
     -ms-flex: 0 0 12.5%;
     flex: 0 0 12.5%;
     max-width: 12.5%; } }
 @media print, screen and (min-width: 40em) and (min-width: 40em) {
-  /* line 584, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 584, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-expand {
     -ms-flex: 1 1 0px;
     flex: 1 1 0px; } }
 @media print, screen and (min-width: 40em) {
-  /* line 592, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 592, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-dir-row {
     -ms-flex-direction: row;
     flex-direction: row; }
 
-  /* line 596, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 596, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-dir-row-reverse {
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse; }
 
-  /* line 600, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 600, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-dir-column {
     -ms-flex-direction: column;
     flex-direction: column; }
 
-  /* line 604, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 604, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-dir-column-reverse {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse; }
 
-  /* line 608, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 608, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-child-auto {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto; }
 
-  /* line 612, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 612, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-child-grow {
     -ms-flex: 1 0 auto;
     flex: 1 0 auto; }
 
-  /* line 616, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 616, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-flex-child-shrink {
     -ms-flex: 0 1 auto;
     flex: 0 1 auto; } }
-/* line 622, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 622, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row.medium-unstack > .column,
 .row.medium-unstack > .columns {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%; }
 
 @media print, screen and (min-width: 40em) {
-  /* line 630, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 630, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .row.medium-unstack > .column,
   .row.medium-unstack > .columns {
     -ms-flex: 1 1 0px;
     flex: 1 1 0px; } }
 @media print, screen and (min-width: 40em) {
-  /* line 639, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 639, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-collapse > .column,
   .medium-collapse > .columns {
     padding-right: 0;
     padding-left: 0; }
 
-  /* line 644, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 644, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-uncollapse > .column,
   .medium-uncollapse > .columns {
     padding-right: 0;
     padding-left: 0; } }
 @media print, screen and (min-width: 64em) {
-  /* line 653, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 653, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-1 {
     -ms-flex: 0 0 8.33333%;
     flex: 0 0 8.33333%;
     max-width: 8.33333%; }
 
-  /* line 658, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 658, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-0 {
     margin-left: 0%; }
 
-  /* line 661, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 661, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-2 {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
 
-  /* line 666, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 666, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-1 {
     margin-left: 8.33333%; }
 
-  /* line 669, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 669, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
 
-  /* line 674, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 674, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-2 {
     margin-left: 16.66667%; }
 
-  /* line 677, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 677, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-4 {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
 
-  /* line 682, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 682, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-3 {
     margin-left: 25%; }
 
-  /* line 685, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 685, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-5 {
     -ms-flex: 0 0 41.66667%;
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }
 
-  /* line 690, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 690, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-4 {
     margin-left: 33.33333%; }
 
-  /* line 693, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 693, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
 
-  /* line 698, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 698, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-5 {
     margin-left: 41.66667%; }
 
-  /* line 701, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 701, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-7 {
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
 
-  /* line 706, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 706, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-6 {
     margin-left: 50%; }
 
-  /* line 709, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 709, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-8 {
     -ms-flex: 0 0 66.66667%;
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
 
-  /* line 714, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 714, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-7 {
     margin-left: 58.33333%; }
 
-  /* line 717, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 717, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%; }
 
-  /* line 722, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 722, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-8 {
     margin-left: 66.66667%; }
 
-  /* line 725, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 725, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-10 {
     -ms-flex: 0 0 83.33333%;
     flex: 0 0 83.33333%;
     max-width: 83.33333%; }
 
-  /* line 730, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 730, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-9 {
     margin-left: 75%; }
 
-  /* line 733, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 733, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-11 {
     -ms-flex: 0 0 91.66667%;
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
 
-  /* line 738, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 738, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-10 {
     margin-left: 83.33333%; }
 
-  /* line 741, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 741, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
 
-  /* line 746, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 746, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-offset-11 {
     margin-left: 91.66667%; }
 
-  /* line 749, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 749, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-1 {
     -ms-flex-order: 1;
     order: 1; }
 
-  /* line 753, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 753, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-2 {
     -ms-flex-order: 2;
     order: 2; }
 
-  /* line 757, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 757, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-3 {
     -ms-flex-order: 3;
     order: 3; }
 
-  /* line 761, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 761, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-4 {
     -ms-flex-order: 4;
     order: 4; }
 
-  /* line 765, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 765, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-5 {
     -ms-flex-order: 5;
     order: 5; }
 
-  /* line 769, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 769, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-6 {
     -ms-flex-order: 6;
     order: 6; }
 
-  /* line 773, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 773, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-1 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 777, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 777, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-1 > .column,
   .large-up-1 > .columns {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
 
-  /* line 783, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 783, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-2 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 787, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 787, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-2 > .column,
   .large-up-2 > .columns {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
 
-  /* line 793, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 793, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-3 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 797, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 797, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-3 > .column,
   .large-up-3 > .columns {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
 
-  /* line 803, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 803, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-4 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 807, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 807, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-4 > .column,
   .large-up-4 > .columns {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
 
-  /* line 813, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 813, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-5 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 817, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 817, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-5 > .column,
   .large-up-5 > .columns {
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
     max-width: 20%; }
 
-  /* line 823, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 823, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-6 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 827, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 827, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-6 > .column,
   .large-up-6 > .columns {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
 
-  /* line 833, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 833, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-7 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 837, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 837, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-7 > .column,
   .large-up-7 > .columns {
     -ms-flex: 0 0 14.28571%;
     flex: 0 0 14.28571%;
     max-width: 14.28571%; }
 
-  /* line 843, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 843, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-8 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
 
-  /* line 847, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 847, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-up-8 > .column,
   .large-up-8 > .columns {
     -ms-flex: 0 0 12.5%;
     flex: 0 0 12.5%;
     max-width: 12.5%; } }
 @media print, screen and (min-width: 64em) and (min-width: 64em) {
-  /* line 857, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 857, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-expand {
     -ms-flex: 1 1 0px;
     flex: 1 1 0px; } }
 @media print, screen and (min-width: 64em) {
-  /* line 865, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 865, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-dir-row {
     -ms-flex-direction: row;
     flex-direction: row; }
 
-  /* line 869, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 869, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-dir-row-reverse {
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse; }
 
-  /* line 873, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 873, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-dir-column {
     -ms-flex-direction: column;
     flex-direction: column; }
 
-  /* line 877, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 877, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-dir-column-reverse {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse; }
 
-  /* line 881, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 881, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-child-auto {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto; }
 
-  /* line 885, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 885, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-child-grow {
     -ms-flex: 1 0 auto;
     flex: 1 0 auto; }
 
-  /* line 889, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 889, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-flex-child-shrink {
     -ms-flex: 0 1 auto;
     flex: 0 1 auto; } }
-/* line 895, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 895, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .row.large-unstack > .column,
 .row.large-unstack > .columns {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%; }
 
 @media print, screen and (min-width: 64em) {
-  /* line 903, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 903, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .row.large-unstack > .column,
   .row.large-unstack > .columns {
     -ms-flex: 1 1 0px;
     flex: 1 1 0px; } }
 @media print, screen and (min-width: 64em) {
-  /* line 912, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 912, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-collapse > .column,
   .large-collapse > .columns {
     padding-right: 0;
     padding-left: 0; }
 
-  /* line 917, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 917, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-uncollapse > .column,
   .large-uncollapse > .columns {
     padding-right: 0;
     padding-left: 0; } }
-/* line 924, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 924, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .shrink {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   max-width: 100%; }
 
-/* line 930, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 930, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-right {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-/* line 935, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 935, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-center {
   -ms-flex-pack: center;
   justify-content: center; }
 
-/* line 940, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 940, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-justify {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-/* line 945, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 945, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-spaced {
   -ms-flex-pack: distribute;
   justify-content: space-around; }
 
-/* line 950, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 950, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-top {
   -ms-flex-align: start;
   align-items: flex-start; }
 
-/* line 955, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 955, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-self-top {
   -ms-flex-item-align: start;
   align-self: flex-start; }
 
-/* line 960, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 960, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-bottom {
   -ms-flex-align: end;
   align-items: flex-end; }
 
-/* line 965, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 965, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-self-bottom {
   -ms-flex-item-align: end;
   align-self: flex-end; }
 
-/* line 970, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 970, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-middle {
   -ms-flex-align: center;
   align-items: center; }
 
-/* line 975, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 975, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-self-middle {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center; }
 
-/* line 981, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 981, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-stretch {
   -ms-flex-align: stretch;
   align-items: stretch; }
 
-/* line 986, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 986, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .align-self-stretch {
   -ms-flex-item-align: stretch;
   -ms-grid-row-align: stretch;
   align-self: stretch; }
 
-/* line 992, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 992, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-1 {
   -ms-flex-order: 1;
   order: 1; }
 
-/* line 997, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 997, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-2 {
   -ms-flex-order: 2;
   order: 2; }
 
-/* line 1002, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 1002, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-3 {
   -ms-flex-order: 3;
   order: 3; }
 
-/* line 1007, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 1007, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-4 {
   -ms-flex-order: 4;
   order: 4; }
 
-/* line 1012, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 1012, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-5 {
   -ms-flex-order: 5;
   order: 5; }
 
-/* line 1017, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+/* line 1017, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
 .small-order-6 {
   -ms-flex-order: 6;
   order: 6; }
 
 @media print, screen and (min-width: 40em) {
-  /* line 1024, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1024, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-1 {
     -ms-flex-order: 1;
     order: 1; }
 
-  /* line 1028, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1028, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-2 {
     -ms-flex-order: 2;
     order: 2; }
 
-  /* line 1032, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1032, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-3 {
     -ms-flex-order: 3;
     order: 3; }
 
-  /* line 1036, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1036, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-4 {
     -ms-flex-order: 4;
     order: 4; }
 
-  /* line 1040, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1040, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-5 {
     -ms-flex-order: 5;
     order: 5; }
 
-  /* line 1044, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1044, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .medium-order-6 {
     -ms-flex-order: 6;
     order: 6; } }
 @media print, screen and (min-width: 64em) {
-  /* line 1052, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1052, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-1 {
     -ms-flex-order: 1;
     order: 1; }
 
-  /* line 1056, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1056, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-2 {
     -ms-flex-order: 2;
     order: 2; }
 
-  /* line 1060, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1060, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-3 {
     -ms-flex-order: 3;
     order: 3; }
 
-  /* line 1064, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1064, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-4 {
     -ms-flex-order: 4;
     order: 4; }
 
-  /* line 1068, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1068, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-5 {
     -ms-flex-order: 5;
     order: 5; }
 
-  /* line 1072, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
+  /* line 1072, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/utils/_grid.scss */
   .large-order-6 {
     -ms-flex-order: 6;
     order: 6; } }
-/* line 3, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/base/_base.css.sass */
+/* line 3, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/base/_base.css.sass */
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 8, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/base/_base.css.sass */
+/* line 8, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/base/_base.css.sass */
 body {
   font-family: "Source Code Pro", monospace;
   font-size: 16px; }
 
-/* line 12, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/base/_base.css.sass */
+/* line 12, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/base/_base.css.sass */
 img {
   display: inline-block;
   vertical-align: middle;
   max-width: 100%;
   -ms-interpolation-mode: bicubic; }
 
-/* line 18, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/base/_base.css.sass */
+/* line 18, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/base/_base.css.sass */
 a {
   text-decoration: none;
   color: #1b1a1b; }
 
-/* line 9, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 9, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 body {
   display: table;
   min-height: 100vh;
   min-width: 100vw; }
 
-/* line 14, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 14, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 main.container {
   display: table-cell;
   position: relative;
   margin: 0 auto;
   width: 100%;
   vertical-align: middle; }
-  /* line 21, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 21, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   main.container .row {
     max-width: none; }
 
-/* line 24, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 24, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .left-column {
   display: flex;
   padding: 2.5rem 1.5rem;
   background-color: #EF0016;
   color: white;
   flex-direction: column; }
-  /* line 31, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 31, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .left-column .content {
     margin: 0 auto;
     width: 100%; }
   @media screen and (min-width: 64em) {
-    /* line 24, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 24, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .left-column {
       padding: 2.5rem; } }
 
-/* line 38, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 38, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .right-column {
   display: flex;
   padding: 2.5rem 1.5rem;
   flex-direction: column;
   justify-content: space-between; }
-  /* line 44, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 44, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .right-column .top,
   .right-column .bottom {
     margin: 0 auto;
     width: 100%; }
     @media screen and (min-width: 64em) {
-      /* line 44, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 44, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
       .right-column .top,
       .right-column .bottom {
         max-width: 90%; } }
   @media screen and (min-width: 64em) {
-    /* line 38, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 38, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .right-column {
       padding: 2.5rem; } }
 
 @media screen and (min-width: 40em) {
-  /* line 57, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 57, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .left-column {
     width: 35%;
     flex: 0 0 auto; }
 
-  /* line 60, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 60, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .right-column {
     width: 65%; }
 
-  /* line 63, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 63, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .left-column:before,
   .right-column:before {
     content: "";
@@ -1689,20 +1689,20 @@ main.container {
     top: 0;
     bottom: 0; }
 
-  /* line 71, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 71, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .left-column:before {
     left: 0;
     right: 65%;
     background-color: #EF0016;
     z-index: -2; }
 
-  /* line 77, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 77, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .right-column:before {
     left: 35%;
     right: 0;
     background-color: #f6f6f6;
     z-index: -1; } }
-/* line 83, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 83, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .column-content {
   margin: auto;
   max-width: 80%;
@@ -1711,24 +1711,24 @@ main.container {
   justify-content: center;
   align-items: center; }
   @media screen and (max-width: 51.25rem) {
-    /* line 83, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 83, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .column-content {
       max-width: none; } }
   @media screen and (min-width: 64em) {
-    /* line 83, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 83, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .column-content {
       max-width: 25rem; } }
 
-/* line 97, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 97, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .title {
   margin: 1.25rem 1.25rem 2.5rem 1.25rem;
   text-align: center; }
-  /* line 100, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 100, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .title p {
     font-size: 1.375rem;
     margin: 0; }
 
-/* line 103, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 103, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .bigLogo {
   display: flex;
   margin: 0 auto 3rem;
@@ -1738,11 +1738,11 @@ main.container {
   text-align: center;
   max-width: 90%; }
   @media screen and (min-width: 40em) {
-    /* line 112, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 112, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .bigLogo #logo {
       max-width: 21.875rem; } }
 
-/* line 116, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 116, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 pre.ready {
   display: inline-block;
   margin: 0;
@@ -1754,18 +1754,18 @@ pre.ready {
   font-weight: 400;
   line-height: 2.3125rem; }
   @media screen and (max-width: 64em) {
-    /* line 116, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 116, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     pre.ready {
       padding: 0 0 0 1rem;
       font-size: 1.125rem;
       line-height: 1.5625rem; } }
   @media screen and (max-width: 20em) {
-    /* line 116, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 116, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     pre.ready {
       font-size: 0.875rem; } }
 
-/* line 134, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
-button.button_buy_tickets {
+/* line 134, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+a.button_buy_tickets {
   display: block;
   padding: 0 1rem;
   height: 3.125rem;
@@ -1775,6 +1775,7 @@ button.button_buy_tickets {
   line-height: 3.125rem;
   outline: none;
   vertical-align: bottom;
+  text-align: center;
   background-color: #0024A7;
   color: white;
   cursor: pointer;
@@ -1783,30 +1784,48 @@ button.button_buy_tickets {
   width: 19.5rem;
   margin: 0 auto; }
   @media screen and (max-width: 64em) {
-    /* line 134, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
-    button.button_buy_tickets {
+    /* line 134, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    a.button_buy_tickets {
       width: 12.5rem; } }
 
-/* line 154, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 155, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+.cocLink {
+  margin-top: 2rem; }
+  /* line 157, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  .cocLink a {
+    position: relative;
+    padding-bottom: 0.25rem;
+    color: #ffffff; }
+    /* line 162, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    .cocLink a::after {
+      background-color: #0024A7;
+      content: "";
+      height: 1px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%; }
+
+/* line 171, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .pastEvents {
   margin-left: -0.5rem;
   margin-top: 6rem; }
-  /* line 157, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 174, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .pastEvents p,
   .pastEvents a {
     display: inline-block;
     margin: 0 0.5rem;
     float: left; }
-  /* line 162, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 179, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .pastEvents p {
     color: #ffffff;
     font-weight: bold; }
-  /* line 166, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 183, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .pastEvents a {
     position: relative;
     padding-bottom: 0.25rem;
     color: #ffffff; }
-    /* line 171, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 188, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .pastEvents a::after {
       background-color: #0024A7;
       content: "";
@@ -1816,12 +1835,12 @@ button.button_buy_tickets {
       left: 0;
       width: 100%; }
 
-/* line 180, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 197, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .topHead {
   display: flex;
   align-items: center; }
 
-/* line 185, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 202, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .topLogo h1.logo {
   display: block;
   width: 6.375rem;
@@ -1833,12 +1852,12 @@ button.button_buy_tickets {
   text-indent: -9999px;
   margin: 0; }
 
-/* line 196, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 213, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .social {
   margin-left: auto;
   text-align: right;
   margin-right: -0.5rem; }
-  /* line 201, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 218, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .social__link {
     display: inline-block;
     margin: 0 0.5rem;
@@ -1847,7 +1866,7 @@ button.button_buy_tickets {
     position: relative;
     padding-bottom: 0.25rem;
     float: left; }
-    /* line 210, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 227, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .social__link::after {
       background-color: #0024A7;
       content: "";
@@ -1857,11 +1876,11 @@ button.button_buy_tickets {
       left: 0;
       width: 100%; }
 
-/* line 219, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 236, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .intro {
   position: relative;
   margin: 2rem 0; }
-  /* line 223, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 240, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .intro:after {
     content: "";
     display: block;
@@ -1870,17 +1889,17 @@ button.button_buy_tickets {
     width: 1.25rem;
     height: 0.0625rem;
     background-color: #0024A7; }
-  /* line 232, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 249, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .intro__title {
     margin: 2.5rem 0 1rem;
     color: #0024A7;
     font-size: 2.1875rem;
     font-weight: 600; }
     @media screen and (max-width: 39.9375em) {
-      /* line 232, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 249, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
       .intro__title {
         font-size: 1.875rem; } }
-  /* line 241, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 258, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .intro__description {
     margin: 0;
     padding-bottom: 1.1875rem;
@@ -1889,34 +1908,34 @@ button.button_buy_tickets {
     line-height: 1.875rem;
     width: 85%; }
     @media screen and (max-width: 39.9375em) {
-      /* line 241, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 258, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
       .intro__description {
         font-size: 0.9375rem;
         line-height: 1.9375rem; } }
-    /* line 253, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 270, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .intro__description__date {
       display: block;
       color: #0024A7;
       font-weight: 400; }
-    /* line 258, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 275, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .intro__description__coc {
       color: #0024A7;
       font-weight: 400; }
-      /* line 262, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 279, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
       .intro__description__coc strong {
         color: #EF0016; }
 
-/* line 265, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 282, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .newsletter {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 2rem 0; }
   @media screen and (max-width: 39.9375em) {
-    /* line 265, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 282, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .newsletter {
       flex-direction: column; } }
-  /* line 273, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 290, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .newsletter__description {
     margin: 1.5rem 0;
     color: #474646;
@@ -1925,14 +1944,14 @@ button.button_buy_tickets {
     width: 35%;
     margin-right: 1.25rem; }
     @media screen and (max-width: 39.9375em) {
-      /* line 273, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 290, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
       .newsletter__description {
         font-size: 0.9375rem;
         width: 90%; } }
-  /* line 284, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 301, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .newsletter__form {
     flex: 1; }
-  /* line 286, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 303, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .newsletter__field {
     position: relative;
     display: table;
@@ -1940,10 +1959,10 @@ button.button_buy_tickets {
     box-shadow: 0 0.09375rem 0.15625rem 0 rgba(196, 196, 196, 0.4);
     table-layout: fixed; }
     @media screen and (max-width: 64em) {
-      /* line 286, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 303, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
       .newsletter__field {
         box-shadow: none; } }
-    /* line 295, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 312, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .newsletter__field_input, .newsletter__field_button {
       display: table-cell;
       padding: 0 1rem;
@@ -1954,17 +1973,17 @@ button.button_buy_tickets {
       line-height: 3.125rem;
       outline: none;
       vertical-align: bottom; }
-    /* line 307, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 324, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .newsletter__field_input {
       border-radius: 0;
       width: calc(100% - 9.375rem); }
       @media screen and (max-width: 64em) {
-        /* line 307, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+        /* line 324, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
         .newsletter__field_input {
           -webkit-appearance: none;
           width: 100%;
           box-shadow: 0 0.09375rem 0.15625rem 0 rgba(196, 196, 196, 0.4); } }
-    /* line 316, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 333, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .newsletter__field_button {
       background-color: #0024A7;
       color: white;
@@ -1973,99 +1992,99 @@ button.button_buy_tickets {
       font-weight: 600;
       width: 9.375rem; }
       @media screen and (max-width: 64em) {
-        /* line 316, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+        /* line 333, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
         .newsletter__field_button {
           margin-top: 1rem;
           width: 100%; } }
 
-/* line 327, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 344, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .speakers {
   display: flex;
   margin-bottom: 1rem; }
   @media screen and (max-width: 39.9375em) {
-    /* line 327, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 344, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .speakers {
       flex-wrap: wrap;
       flex-direction: column; } }
-  /* line 333, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 350, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .speakers__title {
     margin-bottom: 0;
     margin-right: 1.5625rem;
     font-size: 0.9375rem;
     color: #0024A7; }
-  /* line 338, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 355, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .speakers__profiles {
     list-style: none;
     display: flex;
     padding: 0; }
     @media screen and (max-width: 39.9375em) {
-      /* line 338, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 355, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
       .speakers__profiles {
         flex-direction: row;
         justify-content: flex-start;
         align-items: baseline;
         margin-top: 1rem;
         flex-wrap: wrap; } }
-  /* line 349, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 366, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .speakers__item {
     width: 110px;
     max-width: 110px;
     margin-right: 25px; }
     @media screen and (max-width: 39.9375em) {
-      /* line 349, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 366, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
       .speakers__item {
         margin-top: 1.5rem;
         width: 50%;
         max-width: 50%;
         margin-right: 0; } }
-  /* line 358, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 375, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .speakers__link {
     display: block; }
-    /* line 360, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 377, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .speakers__link img {
       width: 77px;
       height: 77px;
       border-radius: 50%;
       display: block;
       margin: 0 auto; }
-    /* line 366, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 383, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .speakers__link p {
       font-size: 0.875rem;
       font-weight: 300;
       text-align: center;
       margin: 5px auto; }
 
-/* line 371, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 388, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 .sponsors {
   display: flex; }
   @media screen and (max-width: 39.9375em) {
-    /* line 371, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 388, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .sponsors {
       flex-wrap: wrap;
       flex-direction: column; } }
-  /* line 376, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 393, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .sponsors__title {
     margin-bottom: 0;
     margin-right: 1.5625rem;
     font-size: 0.9375rem;
     color: #0024A7; }
-  /* line 381, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+  /* line 398, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
   .sponsors__list {
     margin: 0;
     padding: 0;
     list-style: none; }
     @media screen and (max-width: 39.9375em) {
-      /* line 381, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 398, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
       .sponsors__list {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 1rem; } }
-    /* line 392, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+    /* line 409, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
     .sponsors__list_item {
       display: inline-block; }
-      /* line 395, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 412, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
       .sponsors__list_item a.monoku {
         display: inline-block;
         width: 6.625rem;
@@ -2075,18 +2094,19 @@ button.button_buy_tickets {
         background-size: cover;
         text-indent: -9999px;
         font-size: 1px; }
-      /* line 405, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+      /* line 422, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
       .sponsors__list_item a.prompt {
         display: inline-block;
-        width: 6.625rem;
+        width: 12.875rem;
         height: 3.125rem;
+        margin-left: 2rem;
         background-image: url("../images/sponsors/prompt.png");
         background-repeat: no-repeat;
         background-size: cover;
         text-indent: -9999px;
         font-size: 1px; }
 
-/* line 415, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 433, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 #PhotoPP1,
 #PhotoPP2,
 #PhotoPP3,
@@ -2095,7 +2115,7 @@ button.button_buy_tickets {
   transition: all 500ms cubic-bezier(0.24, 0.12, 0.16, 1.06);
   transform: translate3d(0px, 0px, 0px); }
 
-/* line 423, /Users/sebasoga/src/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
+/* line 441, /Users/felo/rubyconfco-website-2017/source/assets/stylesheets/application/_landing.css.sass */
 #PhotoPP4,
 #PhotoPP5,
 #PhotoPP8 {
