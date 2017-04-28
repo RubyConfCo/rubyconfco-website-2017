@@ -6,10 +6,6 @@ import InputText from '../../Atoms/InputText'
 import Text from '../../Atoms/Text'
 import Button from '../../Atoms/Button'
 
-/**
- * Este componente es el que se encarga de hacer la logica para login de un usuario.Si la respuesta es que no esta registrado es enviado a la pagina de registro.
- */
-
 class FormContact extends Component {
   /**
    * constructor

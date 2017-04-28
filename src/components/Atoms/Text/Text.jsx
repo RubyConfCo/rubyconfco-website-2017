@@ -4,7 +4,7 @@ import React, {
 import Styles from './styles.sass'
 
 /**
- * Componente que se encarga de mostrar los titulos dependiendo del parametro Type.
+ * Componente que se encarga de mostrar los titulos dependiendo del parametro type.
  * @param  {Object} props  Atributos con los que se va crear el componente. Ejemplo: { type, text, className }
  * @return {react~Component} markup Estructura Html para el Text.
  */
