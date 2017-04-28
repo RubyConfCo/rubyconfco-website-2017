@@ -1,0 +1,174 @@
+{
+  "name": "centrum-project",
+  "version": "0.0.1",
+  "description": "Application that analyzes the personality of a person according to a text, which will be created by answering questions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jest/bin/jest.js --verbose",
+    "start": "npm run env && ./scripts/copy.sh && ./node_modules/webpack-dashboard/bin/webpack-dashboard.js -t 'Dev Centrum' -- ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --open",
+    "docker-prepare": "cp -R ../node_modules/ . ",
+    "env": "babel-node ./scripts/env.js",
+    "build": "better-npm-run build",
+    "build-dev": "better-npm-run build-dev",
+    "build:app": "./scripts/copy.sh && webpack",
+    "production": "../node_modules/.bin/better-npm-run production",
+    "production:app": "./scripts/copy.sh && ../node_modules/.bin/webpack",
+    "watch:app": "webpack-dev-server",
+    "preview": "NODE_ENV=\"production\" ./node_modules/webpack-dashboard/bin/webpack-dashboard.js -t 'Previem Centrum' -- ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --open",
+    "lint": "./node_modules/eslint/bin/eslint.js ./src/ ./webpack.config.js -f table --ext .js --ext .jsx || true",
+    "doc": "esdoc -c esdoc.json && open ./doc/index.html"
+  },
+  "betterScripts": {
+    "production": {
+      "command": "npm-run-all production:*",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "build": {
+      "command": "npm-run-all env build:*",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "build-dev": {
+      "command": "npm-run-all env build:*",
+      "env": {
+        "NODE_ENV": "development",
+        "HOT_ENV": "false"
+      }
+    }
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoyAndresHernandez/react-webapck2-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack2",
+    "boilerplate",
+    "immutable"
+  ],
+  "jest": {
+    "notify": true,
+    "verbose": true,
+    "transform": {
+      ".*": "<rootDir>/node_modules/babel-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "es6",
+      "sass",
+      "scss"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(css|scss|sass)$": "identity-obj-proxy"
+    }
+  },
+  "author": "Andres Hernandez Lozano <soyandreshernandez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoyAndresHernandez/react-webapck2-boilerplate/issues"
+  },
+  "homepage": "https://github.com/SoyAndresHernandez/react-webapck2-boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.3",
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^6.3.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.1.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-runtime": "^6.23.0",
+    "better-npm-run": "0.0.15",
+    "browser-sync": "^2.18.8",
+    "concurrently": "^3.4.0",
+    "connect-history-api-fallback": "^1.3.0",
+    "css-loader": "^0.26.1",
+    "esdoc": "^0.5.2",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "file-loader": "^0.10.0",
+    "font-loader": "^0.1.2",
+    "identity-obj-proxy": "^3.0.0",
+    "image-webpack-loader": "^3.2.0",
+    "jest": "^18.1.0",
+    "jest-cli": "^19.0.2",
+    "node-sass": "^4.5.0",
+    "npm-run-all": "^4.0.2",
+    "postcss-loader": "^1.3.0",
+    "pre-commit": "^1.2.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "redux-devtools": "^3.3.2",
+    "resolve-url-loader": "^2.0.2",
+    "sass-loader": "^6.0.0",
+    "sass-resources-loader": "^1.2.0",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.13.1",
+    "svg-inline-loader": "^0.7.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
+    "webpack-dashboard": "^0.3.0",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "aor-language-spanish": "^1.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2016": "^6.22.0",
+    "babel-runtime": "^6.23.0",
+    "base64-img": "^1.0.3",
+    "better-react-spinkit": "^2.0.0-6",
+    "es6-promise": "^4.0.5",
+    "fs": "0.0.1-security",
+    "history": "^4.5.1",
+    "immutable": "^3.8.1",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "normalize.css": "^5.0.0",
+    "personality-text-summary": "^2.1.2",
+    "react": "^15.4.2",
+    "react-addons-transition-group": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-dropzone": "^3.12.0",
+    "react-modal": "^1.7.1",
+    "react-motion": "^0.4.7",
+    "react-notify-toast": "^0.1.5",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+    "react-router-redux": "^5.0.0-alpha.3",
+    "react-select": "^1.0.0-rc.3",
+    "react-slick": "^0.14.6",
+    "recharts": "^0.21.2",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.0",
+    "redux-form": "~6.5.0",
+    "redux-storage": "^4.1.2",
+    "redux-storage-decorator-filter": "^1.1.8",
+    "redux-storage-engine-localstorage": "^1.1.4",
+    "redux-thunk": "^2.2.0",
+    "scroll-to": "0.0.2",
+    "scrollreveal": "^3.3.4",
+    "style-it": "^1.6.7"
+  }
+}

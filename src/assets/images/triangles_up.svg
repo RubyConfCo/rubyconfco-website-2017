@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="165px" viewBox="0 0 1440 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>triangles_up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, -492.000000)" id="Tickets-and-Speakers-section" fill="#F9F9F9">
+            <g transform="translate(0.000000, 492.000000)">
+                <g id="Background">
+                    <polygon id="triangles_up" points="0.033122948 151.820862 287.869246 82.7808514 615.01154 124.721848 759.79567 80.0084738 816.579518 112.46872 990.96328 0 1261.46266 61.3476395 1320.1256 42.4798529 1440 78.2864759 1439.13483 158.188882 1439.13483 164.903912 1320.09248 164.903912 1261.42954 164.903912 990.930157 164.903912 816.546395 164.903912 759.762547 164.903912 614.978417 164.903912 287.836123 164.903912 0 164.903912 0 158.188882"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

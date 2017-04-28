@@ -1,26 +1,45 @@
-# RubyConf Colombia 2017 Website
+# RubyConf
+Frontend for Ruby Conf Colombia
 
-This is the site for [RubyConf Colombia](http://rubyconf.co).
+To build this project you need a environment with:
 
-See
-[LICENSE](https://github.com/RubyConfCo/rubyconfco-website-2017/blob/master/LICENSE.md)
+- [NodeJS](https://nodejs.org/)
+- Webpack `npm i -g webpack`
+- Eslint `npm i -g eslint`
+ Webpack `npm i -g Server`
+- webpack-dev-server `npm i -g webpack-dev-server`
 
-## Usage
-### Install
-- [Ruby 2.4.0](https://www.ruby-lang.org)
-- [Middleman](https://middlemanapp.com/)
+## Setup
 
-Run the following commands:
+For starters, just run:
 
-```
-bundle install
-middleman server
-```
-
-### Build
-
-```
-middleman build
+```sh
+$ npm install
 ```
 
-This will output the built site to the `docs/` folder
+## Server Dev
+
+To start a development server:
+
+```sh
+$ npm start
+```
+
+## Server Prod
+
+To build the static files for production, a folder will be created with the name -public-, where you can created that folder with the following command:
+
+```sh
+$ npm run build
+```
+```sh
+$ server -s public
+```
+
+## Server preview Prod
+
+To start a production server preview:
+
+```sh
+$ npm run preview
+```

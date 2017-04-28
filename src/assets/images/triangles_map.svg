@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="232px" viewBox="0 0 1440 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>triangles_down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="42.6455656%" y1="5.1421035%" x2="58.1974803%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0024A7" offset="0%"></stop>
+            <stop stop-color="#EB151C" offset="92.8571429%"></stop>
+        </linearGradient>
+        <linearGradient x1="8.72020311%" y1="5.1421035%" x2="96.0117394%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#0024A7" offset="0%"></stop>
+            <stop stop-color="#EB151C" offset="92.8571429%"></stop>
+        </linearGradient>
+        <linearGradient x1="5.1421035%" y1="8.1109952%" x2="100%" y2="96.6907814%" id="linearGradient-3">
+            <stop stop-color="#0024A7" offset="0%"></stop>
+            <stop stop-color="#EB151C" offset="92.8571429%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, -4575.000000)" id="triangles_down">
+            <g transform="translate(720.500000, 4690.500000) scale(-1, -1) translate(-720.500000, -4690.500000) translate(0.000000, 4574.000000)">
+                <polygon id="Background-body" fill="#F9F9F9" fill-rule="nonzero" points="288.734412 0.78837146 615.876706 0.78837146 760.660836 0.78837146 817.444683 0.78837146 991.828446 0.78837146 1262.32782 0.78837146 1320.99076 0.78837146 1440.86517 0.78837146 1439.13483 42.2233922 1439.96688 129.338524 1320.09248 165.145147 1261.42954 146.277361 990.930157 207.625 816.546395 95.15628 759.762547 127.616526 614.978417 82.9031521 287.836123 124.844149 0 55.8041376 0.865165821 0.78837146"></polygon>
+                <g id="Triangles" transform="translate(720.500000, 118.500000) scale(-1, 1) rotate(-180.000000) translate(-720.500000, -118.500000) translate(18.000000, 5.000000)">
+                    <g id="Path-2" transform="translate(116.000000, 68.000000)">
+                        <g id="path-1-link" fill-rule="nonzero" fill="#000000">
+                            <polygon id="path-1" points="134.898438 25.078125 0.664062 48.949219 20.375 0.1914062"></polygon>
+                        </g>
+                        <g id="path-1-link" fill="#F9F9F9">
+                            <polygon id="path-1" points="134.898438 25.078125 0.664062 48.949219 20.375 0.1914062"></polygon>
+                        </g>
+                    </g>
+                    <g id="Path-3" transform="translate(514.000000, 97.000000)">
+                        <g id="path-3-link" fill-rule="nonzero" fill="#000000">
+                            <polygon id="path-3" points="85.265625 34.441406 0.328125 10.296875 71.273438 0.1367188"></polygon>
+                        </g>
+                        <g id="path-3-link" fill="#F9F9F9">
+                            <polygon id="path-3" points="85.265625 34.441406 0.328125 10.296875 71.273438 0.1367188"></polygon>
+                        </g>
+                    </g>
+                    <g id="Path-4" transform="translate(1246.000000, 21.000000)">
+                        <g id="path-5-link" fill-rule="nonzero" fill="#000000">
+                            <polygon id="path-5" points="0.43359 54.7929688 49 34.5761719 5.98047 0.1015625"></polygon>
+                        </g>
+                        <g id="path-5-link" fill="#F9F9F9">
+                            <polygon id="path-5" points="0.43359 54.7929688 49 34.5761719 5.98047 0.1015625"></polygon>
+                        </g>
+                    </g>
+                    <g id="Path-5" transform="translate(1308.000000, 12.000000)">
+                        <g id="path-7-link" fill-rule="nonzero" fill="#000000">
+                            <polygon id="path-7" points="41.67188 0.6386719 0.02539 41.1992187 96.61133 78.7539062"></polygon>
+                        </g>
+                        <g id="path-7-link" fill="#F9F9F9">
+                            <polygon id="path-7" points="41.67188 0.6386719 0.02539 41.1992187 96.61133 78.7539062"></polygon>
+                        </g>
+                    </g>
+                    <g id="Path-6" transform="translate(1271.000000, 0.000000)">
+                        <g id="path-9-link" fill-rule="nonzero" fill="#000000">
+                            <polygon id="path-9" points="0.55859 0.3515625 19.4248 31.7226562 23.98926 24.3964844"></polygon>
+                        </g>
+                        <g id="path-9-link" fill="#F9F9F9">
+                            <polygon id="path-9" points="0.55859 0.3515625 19.4248 31.7226562 23.98926 24.3964844"></polygon>
+                        </g>
+                    </g>
+                    <g id="Path-7" transform="translate(0.000000, 83.000000)">
+                        <g id="path-11-link" fill-rule="nonzero" fill="#000000">
+                            <polygon id="path-11" points="0.609375 0.8007812 23.2167969 60.1875 50.2363281 26.285156"></polygon>
+                        </g>
+                        <g id="path-11-link" fill="#F9F9F9">
+                            <polygon id="path-11" points="0.609375 0.8007812 23.2167969 60.1875 50.2363281 26.285156"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Path-8" fill="url(#linearGradient-1)" fill-rule="nonzero" points="974.898438 46.1210937 917.359375 82.7382812 1007.79297 82.7382812"></polygon>
+                    <polygon id="Path-9" fill="url(#linearGradient-2)" fill-rule="nonzero" points="1062.2207 57.5351562 1037.55273 95.2402344 1091.04492 108.849609"></polygon>
+                    <polygon id="Path-10" fill="url(#linearGradient-3)" fill-rule="nonzero" points="82.4882812 167.921875 55.34375 211.371094 112.203125 226.761719"></polygon>
+                    <g id="Path-11" transform="translate(780.000000, 103.000000)">
+                        <g id="path-14-link" fill-rule="nonzero" fill="#000000">
+                            <polygon id="path-14" points="0.069336 0.356445 15.071289 17.248047 35.420898 0.175781"></polygon>
+                        </g>
+                        <g id="path-14-link" fill="#F9F9F9">
+                            <polygon id="path-14" points="0.069336 0.356445 15.071289 17.248047 35.420898 0.175781"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

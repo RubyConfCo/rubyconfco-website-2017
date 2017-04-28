@@ -1,0 +1,63 @@
+%Button
+  border-radius: 2px
+  border: none
+  box-shadow: none
+  cursor: pointer
+  display: inline-block
+  font-family: sans-serif
+  font-size: $font-text-small
+  font-weight: bold
+  height: 40px
+  line-height: 1.2
+  margin: 0px
+  margin: 10px 5px
+  transition: all 300ms ease-in-out
+  width: 200px
+  &:hover
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2)
+  &:focus
+    outline: none
+
+.Disabled
+  background-color: $white-two
+  border: 1px solid $white-two
+  pointer-event: none
+  &:hover
+    cursor: auto
+
+.Primary
+  @extend %Button
+  color: #ffffff
+  border: 1px solid $cobalt-blue 
+  background-color: $cobalt-blue 
+  &:hover
+    border: 1px solid $darkblue
+    background-color : $darkblue
+
+.Second
+  @extend %Button
+  color: #ffffff
+  border: 1px solid $lightish-blue 
+  background-color: $lightish-blue 
+  &:hover
+    border: 1px solid $cobalt-blue
+    background-color : $cobalt-blue
+
+.Red
+  @extend %Button
+  color: #ffffff
+  border: 1px solid $cherry-red-two 
+  background-color: $cherry-red-two 
+  &:hover
+    border: 1px solid $blood-red
+    background-color : $blood-red
+
+.Linear
+  @extend %Button
+  color: #greyish-brown
+  border: 1px solid $greyish-brown
+  background-color: transparent 
+  &:hover
+    color: #ffffff
+    border: 1px solid $greyish-brown
+    background-color : $greyish-brown

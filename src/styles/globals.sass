@@ -1,0 +1,83 @@
+//------------------------------------------------------------------------------
+//  Monoku S.A.S
+//  Variables
+//  This file contains the variables (fonts, sizes, colors, etc.)
+//------------------------------------------------------------------------------
+
+// Fonts
+//-------------------
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Source+Code+Pro:200,300,400,500,600,700,900')
+
+$sourceCode : 'Source Code Pro', monospace
+$roboto : 'Roboto', sans-serif
+
+
+// Colors
+//-------------------
+
+$cherry-red-two   : #ec0a12
+$cobalt-blue      : #0024a7
+$dark-two         : #36293b
+$coral-pink       : #ff646a
+$lightish-blue    : #3560fa
+$purplish-grey    : #736c76
+$blood-red        : #9e0006
+$darkblue         : #041657
+$dark-three       : #271d29
+$black            : #000000
+$greyish-brown    : #4e4e4e
+$greyish          : #a3a3a3
+$pinkish-grey     : #cdcdcd
+$white-two        : #ebebeb
+$white-three      : #f9f9f9
+$vivid-green      : #11eb1b
+$golden-yellow    : #ffc726
+$coral            : #ff4141
+
+// Sizes
+//-------------------
+
+$font-title-big         : 32px
+$font-title-big-mobil   : 25px
+$font-text-big          : 17px
+$font-text-normal       : 15px
+$font-text-small        : 14px
+$font-text-extra-small  : 11px
+
+// Icon Codes
+//-------------------
+$IconArrowDown      : "\e900"
+$IconArrowRight     : "\e901"
+$IconCalendar       : "\e902"
+$IconCoffee         : "\e903"
+$IconConference     : "\e904"
+$IconLunch          : "\e905"
+$IconMessage        : "\e906"
+$IconPeople         : "\e907"
+$IconPlace          : "\e908"
+$IconRubyConf       : "\e909"
+$IconTicket         : "\e90a"
+$IconTime           : "\e90b"
+$IconFacebook       : "\ea90"
+$IconTwitter        : "\ea96"
+$IconMenu           : "\e9bd"
+
+// Media queries
+//-------------------
+=small-only
+  @media screen and (max-width: 39.9375em)
+    @content
+=medium-up
+  @media screen and (min-width: 40em)
+    @content
+=medium-only
+  @media screen and (min-width: 40em) and (max-width: 63.9375em)
+    @content
+=large-up
+  @media screen and (min-width: 64em)
+    @content
+=large-only
+  @media screen and (min-width: 64em) and (max-width: 74.9375em)
+    @content
+

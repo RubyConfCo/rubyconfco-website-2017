@@ -1,0 +1,102 @@
+.Container
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  padding: 20px 3%
+  position: relative
+  +medium-only
+    padding: 20px 1%
+.Logo
+  font-size: 40px
+  color: $white-three
+  +small-only
+    display: block
+    margin: auto
+    text-align: center
+.Left
+  display: flex
+  flex-wrap: nowrap
+  position: relative
+  +small-only
+    display: none
+    position: fixed
+    opacity: 0.9
+    background: linear-gradient(to bottom, $cherry-red-two 0%, $cobalt-blue 100%)
+    top: -100px
+    bottom: -100px
+    left: 0
+    right: 0
+    z-index: 2
+    overflow: hidden
+    padding-top: 120px
+
+  &.active
+    display: block
+  & .Close
+    display: none
+    position: absolute
+    right: 20px
+    color: $white-three 
+    font-family: $sourceCode
+    font-size: $font-text-big
+    +small-only
+      display: block
+
+.Right
+  display: flex
+  flex: 1 0 auto
+  justify-content: flex-end
+  padding-right: 7%
+  +large-up
+    padding-right: 5%
+  +medium-up
+    padding-right: 2%
+  +small-only
+    display: none
+.Menu
+  display: flex
+  +medium-only
+    display: none
+  +small-only
+     display: flex
+     flex-direction: column
+     justify-content: center
+     text-align: center
+     padding: 0
+.MenuItem
+  font-family: $roboto
+  font-size: $font-text-small 
+  font-weight: 500
+  line-height: 1.57
+  letter-spacing: 1.3px
+  color: $white-three
+  list-style: none
+  margin: 0px 10px
+  padding: 0
+  cursor: pointer
+  &:before
+    content: "• "
+    color: $cobalt-blue
+    font-size: $font-text-small 
+  +small-only
+    font-size: $font-title-big
+    margin: 10px auto
+.ContainerMobil
+  position: absolute
+  cursor: pointer
+  right: 20px
+  display: none
+  justify-content: center
+  align-content: center
+  width: 45px
+  height: 45px
+  background-image: linear-gradient(135deg, $cobalt-blue, $cherry-red-two 93%)
+  user-select: none
+  +small-only
+    display: flex
+    line-height: 45px
+    user-select: none
+.Icon
+  color: $white-three 
+  font-size: 24px
+  user-select: none

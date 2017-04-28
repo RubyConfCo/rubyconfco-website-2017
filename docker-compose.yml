@@ -1,0 +1,9 @@
+version: '2'
+services:
+  node:
+    build: .
+    working_dir: /app/user
+    volumes:
+      - '.:/app/user'
+    environment:
+      IS_DOCKER: 'true'

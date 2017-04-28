@@ -1,0 +1,305 @@
+@import '../../../styles/_grid.scss'
+
+.Container
+
+.row
+  @extend .row
+  padding: 50px 0px
+  +small-only
+    padding: 50px 10%
+  &.padding_100
+    padding: 100px
+    +small-only
+      padding: 50px 10%
+  &.padding_200
+    padding: 200px
+    +small-only
+      padding: 100px 10%
+.columns
+  @extend .columns
+
+.large_4
+  @extend .large-4
+  
+.large_6
+  @extend .large-6
+
+.large_12
+  @extend .large-12
+
+.small_12
+  @extend .small-12
+
+
+.Header
+  width: 100%
+  height: 100%
+  background: url('../../../assets/images/Photos_hero.png') center center no-repeat
+  background-size: cover
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    right: 0
+    bottom: -180px
+    left: 0
+    opacity: 0.9
+    background-image: linear-gradient(245deg, #0024a7, #eb151c)
+    +small-only
+      padding: 50px 0px
+.HeaderContent
+  z-index: 2
+  display: block
+  position: relative
+.BoxLogo
+  text-align: center
+.Logo
+  width: 379.5px
+  height: 270.2px
+  object-fit: contain
+  +small-only
+    width: 231px
+    height: 164.5px
+    object-fit: contain
+.TextDescription
+  color: $white-three
+  font-family: $roboto
+  font-size: 17px
+  height: 81px
+  line-height: 1.59
+  margin-bottom: 30px
+  width: 384px
+  +small-only
+    width: 100%
+  &:after
+    background-color: #ec0a12
+    content: ''
+    display: block
+    height: 2px
+    margin-top: 10px
+    width: 50px
+
+.TextDate
+  color: $white-three
+  font-family: $sourceCode
+  font-size: $font-title-big-mobil
+  font-weight: 600
+  height: 32px
+  +small-only
+    margin-top: 60px
+
+.TextPlace
+  color: $white-three
+  font-family: $sourceCode
+  font-size: $font-text-big 
+  height: 22px
+  line-height: 1.16
+.ArrowDown
+  color: $white-three
+  display: block
+  margin: 50px auto 0px
+  text-align: center
+.EffectTriangles
+  background-color: $white-three
+  position: relative
+  &:before
+    background-image: url('../../../assets/images/triangles_up.svg')
+    background-size: cover
+    content: ''
+    display: block
+    height: 170px
+    position: absolute
+    top: -152px
+    width: 100%
+    z-index: 1
+.BlueColor
+  color: $cobalt-blue
+.WhiteColor
+  color: $white-three
+
+.DescriptionFirstSection
+  color: $greyish-brown
+  font-family: $roboto
+  font-size: $font-text-big
+  line-height: 1.59
+  width: 454px
+  +small-only
+    width: 100%
+  &.WhiteColor
+    color: $white-three
+
+.Ticket
+  display: block
+  margin: auto
+  text-align: center
+  width: 80%
+  +small-only
+    width: 100%
+.DividerSection
+  align-items: center
+  display: flex
+  justify-content: space-between
+  & .TextBlue
+      color: $cobalt-blue
+  & .TextWhite
+      color: $white-three
+  & .TextCherry
+      color: $cherry-red-two
+.Shedule
+  padding-top: 269px
+  background-image: linear-gradient(155deg, $cobalt-blue, $cherry-red-two 93%)
+  position: relative
+  &:before
+    background-image: url('../../../assets/images/triangles_down.svg')
+    background-size: cover
+    content: ''
+    display: block
+    height: 269px
+    position: absolute
+    top: -2px
+    width: 100%
+    z-index: 24
+.Location
+  background-color: $white-three
+  height: 100px
+  position: relative
+  margin-top: 210px
+  &:before
+    background-image: url('../../../assets/images/triangles_map.svg')
+    background-size: cover
+    content: ''
+    display: block
+    height: 270px
+    position: absolute
+    top: -269px
+    width: 100%
+    z-index: 2
+  & > .row
+    padding: 0px
+    +small-only
+      padding: 0px 10%
+  +small-only
+    margin-top: 260px
+.Place
+  width: 308px
+  font-family: $sourceCode
+  font-size: 19px
+  line-height: 1.16
+  color: $white-three
+  margin: 0px
+  +small-only
+      width: 80%
+  &.Bold
+    font-weight: bold
+  &.Margin_left_40
+    margin-left: 40px
+    +small-only
+      margin-left: 10px
+
+.MapImg
+  width: 613px
+  height: 484.3px
+  position: absolute
+  display: block
+  top: -315px
+  z-index: 3
+  +small-only
+      width: 70%
+      height: auto
+      position: absolute
+      display: block
+      top: -239px
+      right: 30px
+      z-index: 3
+.CodeConduc
+  height: 583px
+  background-image: url('../../../assets/images/background_code.png')
+  background-size: cover
+  margin-top: 175px
+  +small-only
+    height: auto
+    padding: 80px 0px;
+  & .Divider
+    width: 70px
+    height: 2px
+    margin: 50px auto
+    background-color: #ec0a12
+  & .Title
+    font-family: $sourceCode
+    font-size: $font-title-big-mobil
+    font-weight: 600
+    text-align: center
+    color: $white-three
+    text-align: center
+    margin-bottom: 50px
+  & .Description
+    width: 477px
+    margin: auto
+    font-family: $roboto
+    font-size: $font-text-big
+    line-height: 1.59
+    text-align: center
+    color: $white-three
+    margin-bottom: 40px
+    +small-only
+      width: 100%
+  & .Button
+    margin: 50px auto 10px
+    display: block
+
+.Sponsors
+  & .Title
+    font-size: $font-text-big
+    color: $greyish-brown
+    font-family: $roboto
+    width: 100%
+    padding-bottom: 20px
+    border-bottom: 1px solid $pinkish-grey  
+  & .ListSponsors
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: center
+    padding: 30px 0px
+    margin: auto
+    li
+      list-style: none
+      img 
+        width: 70%
+
+.Contact
+  background-image: url('../../../assets/images/Background-medellin.png')
+  background-size: cover
+  position: relative
+  padding-bottom: 100px
+  & .row
+    padding-bottom: 50px
+  &:before
+    background-image: url('../../../assets/images/triangles_mailing.svg')
+    background-size: cover
+    content: ''
+    display: block
+    height: 150px
+    position: absolute
+    top: -23px
+    width: 100%
+    z-index: 2
+  & .Title
+    font-family: $sourceCode
+    font-size: $font-title-big-mobil
+    font-weight: 600
+    text-align: center
+    color: $white-three
+    text-align: center
+    margin: 50px auto
+  & .Description
+    width: 515px
+    margin: auto
+    font-family: $roboto
+    font-size: $font-text-big
+    line-height: 1.59
+    text-align: center
+    color: $white-three
+    margin-bottom: 0px
+    +small-only
+      width: 100%
